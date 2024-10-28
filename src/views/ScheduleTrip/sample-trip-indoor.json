@@ -1,0 +1,801 @@
+{
+  "duration": 2720,
+  "startTime": 1699647144000,
+  "endTime": 1699649864000,
+  "walkTime": 627,
+  "transitTime": 1724,
+  "waitingTime": 369,
+  "walkDistance": 741.83,
+  "walkLimitExceeded": false,
+  "generalizedCost": 4497,
+  "elevationLost": 0,
+  "elevationGained": 0,
+  "transfers": 1,
+  "fare": {
+    "fare": {},
+    "details": {}
+  },
+  "legs": [
+    {
+      "startTime": 1699647144000,
+      "endTime": 1699647187000,
+      "departureDelay": 0,
+      "arrivalDelay": 0,
+      "realTime": false,
+      "distance": 47.74,
+      "generalizedCost": 81,
+      "pathway": false,
+      "mode": "WALK",
+      "transitLeg": false,
+      "route": "",
+      "agencyTimeZoneOffset": -18000000,
+      "interlineWithPreviousLeg": false,
+      "from": {
+        "name": "Origin",
+        "lon": -78.81319,
+        "lat": 42.942811,
+        "departure": 1699647144000,
+        "vertexType": "NORMAL"
+      },
+      "to": {
+        "name": "Bailey Avenue Hewett Avenue South",
+        "stopId": "1:2890",
+        "stopCode": "12890",
+        "lon": -78.813761,
+        "lat": 42.942591,
+        "arrival": 1699647187000,
+        "departure": 1699647187000,
+        "vertexType": "TRANSIT"
+      },
+      "legGeometry": {
+        "points": "ufbeGne``N?zAN??T",
+        "length": 4
+      },
+      "steps": [
+        {
+          "distance": 38.18,
+          "relativeDirection": "DEPART",
+          "streetName": "Hewitt Avenue",
+          "absoluteDirection": "WEST",
+          "stayOn": false,
+          "area": false,
+          "bogusName": false,
+          "lon": -78.81319,
+          "lat": 42.942677,
+          "elevation": "",
+          "walkingBike": false
+        },
+        {
+          "distance": 9.56,
+          "relativeDirection": "LEFT",
+          "streetName": "Bailey Avenue",
+          "absoluteDirection": "SOUTH",
+          "stayOn": false,
+          "area": false,
+          "bogusName": false,
+          "lon": -78.813659,
+          "lat": 42.942677,
+          "elevation": "",
+          "walkingBike": false
+        }
+      ],
+      "rentedBike": false,
+      "walkingBike": false,
+      "duration": 43
+    },
+    {
+      "startTime": 1699647187000,
+      "endTime": 1699647629000,
+      "departureDelay": 0,
+      "arrivalDelay": 0,
+      "realTime": false,
+      "distance": 1621.14,
+      "generalizedCost": 1042,
+      "pathway": false,
+      "mode": "BUS",
+      "transitLeg": true,
+      "route": "19 - BAILEY",
+      "agencyName": "NFTA",
+      "agencyUrl": "http://www.nfta.com/",
+      "agencyTimeZoneOffset": -18000000,
+      "routeColor": "#005B95",
+      "routeType": 3,
+      "routeId": "1:19",
+      "routeTextColor": "FFFFFF",
+      "interlineWithPreviousLeg": false,
+      "tripBlockId": "19010",
+      "headsign": "19 BAILEY-ABBOTT",
+      "agencyId": "1:NFTA",
+      "tripId": "1:4506297",
+      "serviceDate": "2023-11-10",
+      "from": {
+        "name": "Bailey Avenue Hewett Avenue South",
+        "stopId": "1:2890",
+        "stopCode": "12890",
+        "lon": -78.813761,
+        "lat": 42.942591,
+        "arrival": 1699647187000,
+        "departure": 1699647187000,
+        "stopIndex": 12,
+        "stopSequence": 13,
+        "vertexType": "TRANSIT"
+      },
+      "to": {
+        "name": "Bailey Avenue Manhart Street South",
+        "stopId": "1:3090",
+        "stopCode": "13090",
+        "lon": -78.813768,
+        "lat": 42.928022,
+        "arrival": 1699647629000,
+        "departure": 1699647998000,
+        "stopIndex": 19,
+        "stopSequence": 20,
+        "vertexType": "TRANSIT"
+      },
+      "intermediateStops": [
+        {
+          "name": "Bailey Avenue Amherst Street South",
+          "stopId": "1:2490",
+          "stopCode": "12490",
+          "lon": -78.813764,
+          "lat": 42.940508,
+          "arrival": 1699647256000,
+          "departure": 1699647256000,
+          "stopIndex": 13,
+          "stopSequence": 14,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Kensington Avenue Sou",
+          "stopId": "1:2950",
+          "stopCode": "12950",
+          "lon": -78.813769,
+          "lat": 42.938073,
+          "arrival": 1699647360000,
+          "departure": 1699647360000,
+          "stopIndex": 14,
+          "stopSequence": 15,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Hastings Avenue South",
+          "stopId": "1:2830",
+          "stopCode": "12830",
+          "lon": -78.813761,
+          "lat": 42.936407,
+          "arrival": 1699647404000,
+          "departure": 1699647404000,
+          "stopIndex": 15,
+          "stopSequence": 16,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Martha Avenue South O",
+          "stopId": "1:3100",
+          "stopCode": "13100",
+          "lon": -78.813752,
+          "lat": 42.934581,
+          "arrival": 1699647453000,
+          "departure": 1699647453000,
+          "stopIndex": 16,
+          "stopSequence": 17,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Oakmont Avenue South",
+          "stopId": "1:3170",
+          "stopCode": "13170",
+          "lon": -78.813766,
+          "lat": 42.932181,
+          "arrival": 1699647517000,
+          "departure": 1699647517000,
+          "stopIndex": 17,
+          "stopSequence": 18,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Langfield Drive South",
+          "stopId": "1:3010",
+          "stopCode": "13010",
+          "lon": -78.813766,
+          "lat": 42.930027,
+          "arrival": 1699647575000,
+          "departure": 1699647575000,
+          "stopIndex": 18,
+          "stopSequence": 19,
+          "vertexType": "TRANSIT"
+        }
+      ],
+      "legGeometry": {
+        "points": "gfbeGhh``N??T?pB?j@?jB?f@?vAA????X?d@?~C?t@?bBAnB?????T?|B?|C?Z?????vB@tC@n@?l@?????b@?vA?X?nC?nB?L?P?J?\\?????dC?X?nC?Z?bB?????`@?h@?rB@t@?`B?v@?",
+        "length": 54
+      },
+      "steps": [],
+      "routeShortName": "19",
+      "routeLongName": "19 - BAILEY",
+      "duration": 442
+    },
+    {
+      "startTime": 1699647998000,
+      "endTime": 1699649280000,
+      "departureDelay": 0,
+      "arrivalDelay": 0,
+      "realTime": false,
+      "distance": 6120.13,
+      "generalizedCost": 2251,
+      "pathway": false,
+      "mode": "BUS",
+      "transitLeg": true,
+      "route": "12 - UTICA",
+      "agencyName": "NFTA",
+      "agencyUrl": "http://www.nfta.com/",
+      "agencyTimeZoneOffset": -18000000,
+      "routeColor": "#005B95",
+      "routeType": 3,
+      "routeId": "1:12",
+      "routeTextColor": "FFFFFF",
+      "interlineWithPreviousLeg": false,
+      "tripBlockId": "12010",
+      "headsign": "12 NIAGARA STREET",
+      "agencyId": "1:NFTA",
+      "tripId": "1:4519470",
+      "serviceDate": "2023-11-10",
+      "from": {
+        "name": "Bailey Avenue Manhart Street South",
+        "stopId": "1:3090",
+        "stopCode": "13090",
+        "lon": -78.813768,
+        "lat": 42.928022,
+        "arrival": 1699647629000,
+        "departure": 1699647998000,
+        "stopIndex": 30,
+        "stopSequence": 31,
+        "vertexType": "TRANSIT"
+      },
+      "to": {
+        "name": "Utica Street Main Street West",
+        "stopId": "1:55160",
+        "stopCode": "155160",
+        "lon": -78.865556,
+        "lat": 42.911351,
+        "arrival": 1699649280000,
+        "departure": 1699649280000,
+        "stopIndex": 60,
+        "stopSequence": 61,
+        "vertexType": "TRANSIT"
+      },
+      "intermediateStops": [
+        {
+          "name": "Bailey Avenue Doris Avenue South",
+          "stopId": "1:2730",
+          "stopCode": "12730",
+          "lon": -78.813772,
+          "lat": 42.926376,
+          "arrival": 1699648034000,
+          "departure": 1699648034000,
+          "stopIndex": 31,
+          "stopSequence": 32,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Langmeyer Avenue Sout",
+          "stopId": "1:3020",
+          "stopCode": "13020",
+          "lon": -78.813771,
+          "lat": 42.924704,
+          "arrival": 1699648073000,
+          "departure": 1699648073000,
+          "stopIndex": 32,
+          "stopSequence": 33,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue East Delavan Avenue S",
+          "stopId": "1:2660",
+          "stopCode": "12660",
+          "lon": -78.813803,
+          "lat": 42.922135,
+          "arrival": 1699648140000,
+          "departure": 1699648140000,
+          "stopIndex": 33,
+          "stopSequence": 34,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Wecker Street South",
+          "stopId": "1:3420",
+          "stopCode": "13420",
+          "lon": -78.813776,
+          "lat": 42.920872,
+          "arrival": 1699648167000,
+          "departure": 1699648167000,
+          "stopIndex": 34,
+          "stopSequence": 35,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Northland Avenue Sout",
+          "stopId": "1:3150",
+          "stopCode": "13150",
+          "lon": -78.813783,
+          "lat": 42.918988,
+          "arrival": 1699648208000,
+          "departure": 1699648208000,
+          "stopIndex": 35,
+          "stopSequence": 36,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue Scajaquada Street Sou",
+          "stopId": "1:3270",
+          "stopCode": "13270",
+          "lon": -78.813784,
+          "lat": 42.917453,
+          "arrival": 1699648241000,
+          "departure": 1699648241000,
+          "stopIndex": 36,
+          "stopSequence": 37,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Bailey Avenue East Ferry Street Sou",
+          "stopId": "1:2780",
+          "stopCode": "12780",
+          "lon": -78.813852,
+          "lat": 42.914838,
+          "arrival": 1699648298000,
+          "departure": 1699648298000,
+          "stopIndex": 37,
+          "stopSequence": 38,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Wende Street West",
+          "stopId": "1:17490",
+          "stopCode": "117490",
+          "lon": -78.81455,
+          "lat": 42.914763,
+          "arrival": 1699648315000,
+          "departure": 1699648315000,
+          "stopIndex": 38,
+          "stopSequence": 39,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Leslie Street Wes",
+          "stopId": "1:17310",
+          "stopCode": "117310",
+          "lon": -78.817522,
+          "lat": 42.914757,
+          "arrival": 1699648362000,
+          "departure": 1699648362000,
+          "stopIndex": 39,
+          "stopSequence": 40,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Northumberland Av",
+          "stopId": "1:17420",
+          "stopCode": "117420",
+          "lon": -78.82021,
+          "lat": 42.914692,
+          "arrival": 1699648405000,
+          "departure": 1699648405000,
+          "stopIndex": 40,
+          "stopSequence": 41,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Cambridge Avenue",
+          "stopId": "1:17090",
+          "stopCode": "117090",
+          "lon": -78.822396,
+          "lat": 42.9146,
+          "arrival": 1699648440000,
+          "departure": 1699648440000,
+          "stopIndex": 41,
+          "stopSequence": 42,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Moselle Street We",
+          "stopId": "1:17390",
+          "stopCode": "117390",
+          "lon": -78.824221,
+          "lat": 42.914522,
+          "arrival": 1699648469000,
+          "departure": 1699648469000,
+          "stopIndex": 42,
+          "stopSequence": 43,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Schuele Street We",
+          "stopId": "1:17480",
+          "stopCode": "117480",
+          "lon": -78.826319,
+          "lat": 42.914526,
+          "arrival": 1699648502000,
+          "departure": 1699648502000,
+          "stopIndex": 43,
+          "stopSequence": 44,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street Grider Street Wes",
+          "stopId": "1:17170",
+          "stopCode": "117170",
+          "lon": -78.82883,
+          "lat": 42.91456,
+          "arrival": 1699648542000,
+          "departure": 1699648542000,
+          "stopIndex": 44,
+          "stopSequence": 45,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry St and True Bethel Bapti",
+          "stopId": "1:17175",
+          "stopCode": "117175",
+          "lon": -78.830753,
+          "lat": 42.914624,
+          "arrival": 1699648573000,
+          "departure": 1699648573000,
+          "stopIndex": 45,
+          "stopSequence": 46,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry St and 810 East Ferry St",
+          "stopId": "1:17295",
+          "stopCode": "117295",
+          "lon": -78.834983,
+          "lat": 42.914625,
+          "arrival": 1699648640000,
+          "departure": 1699648640000,
+          "stopIndex": 46,
+          "stopSequence": 47,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "East Ferry Street and 663 East Ferr",
+          "stopId": "1:17070",
+          "stopCode": "117070",
+          "lon": -78.836843,
+          "lat": 42.914652,
+          "arrival": 1699648669000,
+          "departure": 1699648669000,
+          "stopIndex": 47,
+          "stopSequence": 48,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Fillmore Avenue Winslow Avenue Sout",
+          "stopId": "1:18240",
+          "stopCode": "118240",
+          "lon": -78.839162,
+          "lat": 42.913247,
+          "arrival": 1699648735000,
+          "departure": 1699648735000,
+          "stopIndex": 48,
+          "stopSequence": 49,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Fillmore Avenue West F",
+          "stopId": "1:55020",
+          "stopCode": "155020",
+          "lon": -78.839554,
+          "lat": 42.91108,
+          "arrival": 1699648800000,
+          "departure": 1699648800000,
+          "stopIndex": 49,
+          "stopSequence": 50,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Humboldt Parkway West",
+          "stopId": "1:55080",
+          "stopCode": "155080",
+          "lon": -78.843,
+          "lat": 42.911027,
+          "arrival": 1699648864000,
+          "departure": 1699648864000,
+          "stopIndex": 50,
+          "stopSequence": 51,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Humboldt Parkway West",
+          "stopId": "1:55060",
+          "stopCode": "155060",
+          "lon": -78.843967,
+          "lat": 42.91103,
+          "arrival": 1699648882000,
+          "departure": 1699648882000,
+          "stopIndex": 51,
+          "stopSequence": 52,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Celtic Place West",
+          "stopId": "1:54960",
+          "stopCode": "154960",
+          "lon": -78.84635,
+          "lat": 42.911098,
+          "arrival": 1699648926000,
+          "departure": 1699648926000,
+          "stopIndex": 52,
+          "stopSequence": 53,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Wohlers Avenue West",
+          "stopId": "1:55300",
+          "stopCode": "155300",
+          "lon": -78.847702,
+          "lat": 42.911047,
+          "arrival": 1699648952000,
+          "departure": 1699648952000,
+          "stopIndex": 53,
+          "stopSequence": 54,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Storz Avenue West",
+          "stopId": "1:55270",
+          "stopCode": "155270",
+          "lon": -78.849681,
+          "lat": 42.911118,
+          "arrival": 1699648989000,
+          "departure": 1699648989000,
+          "stopIndex": 54,
+          "stopSequence": 55,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Hauf Street West",
+          "stopId": "1:55040",
+          "stopCode": "155040",
+          "lon": -78.851732,
+          "lat": 42.911189,
+          "arrival": 1699649027000,
+          "departure": 1699649027000,
+          "stopIndex": 55,
+          "stopSequence": 56,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Jefferson Avenue West",
+          "stopId": "1:55100",
+          "stopCode": "155100",
+          "lon": -78.854241,
+          "lat": 42.91125,
+          "arrival": 1699649074000,
+          "departure": 1699649074000,
+          "stopIndex": 56,
+          "stopSequence": 57,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Purdy Street West",
+          "stopId": "1:55240",
+          "stopCode": "155240",
+          "lon": -78.856562,
+          "lat": 42.911229,
+          "arrival": 1699649117000,
+          "departure": 1699649117000,
+          "stopIndex": 57,
+          "stopSequence": 58,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Masten Avenue West",
+          "stopId": "1:55180",
+          "stopCode": "155180",
+          "lon": -78.859441,
+          "lat": 42.911239,
+          "arrival": 1699649171000,
+          "departure": 1699649171000,
+          "stopIndex": 58,
+          "stopSequence": 59,
+          "vertexType": "TRANSIT"
+        },
+        {
+          "name": "Utica Street Michigan Avenue West",
+          "stopId": "1:55200",
+          "stopCode": "155200",
+          "lon": -78.862271,
+          "lat": 42.911248,
+          "arrival": 1699649224000,
+          "departure": 1699649224000,
+          "stopIndex": 59,
+          "stopSequence": 60,
+          "vertexType": "TRANSIT"
+        }
+      ],
+      "legGeometry": {
+        "points": "ck_eGjh``N??R?hA?|A?`A?`A?????\\?dA?~A@dA?lA?????N?bE?bE?hB?????rA@fD?????P?fF@~B?????P?r@?~C?jA?????x@?X?pA@hAAxA@`E?????\\?@hD?????`@?hE?fE?~C?????f@@~C?HDpCDrD????@\\?LFvD@b@DzC?P????@l@B`CBzA@~A????@JAX?|DC~D?????L?R?tCAjBArE?????n@AjA?FAvF?B????EjI?`@AfEAbDArB?????tACdG?V????C|DAhG~AGl@?\\?fB?????T?VAfC?nA?`@?pA?pA??~A????AhHCjEAzD?????X?H?X?N?P?V?PAt@????AnFClF?????r@AxE????AjAAnEAnB?????jAAzDApC????An@AbEAjE?t@????ApCArDAhC?????j@AjFAfH????AXEzO?????ZCrE?rEAz@AtA?x@",
+        "length": 185
+      },
+      "steps": [],
+      "routeShortName": "12",
+      "routeLongName": "12 - UTICA",
+      "duration": 1282
+    },
+    {
+      "startTime": 1699649280000,
+      "endTime": 1699649864000,
+      "departureDelay": 0,
+      "arrivalDelay": 0,
+      "realTime": false,
+      "distance": 694.09,
+      "generalizedCost": 1121,
+      "pathway": false,
+      "mode": "WALK",
+      "transitLeg": false,
+      "route": "",
+      "agencyTimeZoneOffset": -18000000,
+      "interlineWithPreviousLeg": false,
+      "from": {
+        "name": "Utica Street Main Street West",
+        "stopId": "1:55160",
+        "stopCode": "155160",
+        "lon": -78.865556,
+        "lat": 42.911351,
+        "arrival": 1699649280000,
+        "departure": 1699649280000,
+        "vertexType": "TRANSIT"
+      },
+      "to": {
+        "name": "Destination",
+        "lon": -78.8684763,
+        "lat": 42.9062229,
+        "arrival": 1699649864000,
+        "vertexType": "NORMAL"
+      },
+      "legGeometry": {
+        "points": "}b|dGvlj`NT??fAn@PHBl@N^Jv@RVFn@PhAXXH^JB?j@PZH`Ch@h@Ld@J`@HFBJBtAZXFt@N?fFLBLB`AR",
+        "length": 29
+      },
+      "steps": [
+        {
+          "distance": 29.23,
+          "relativeDirection": "DEPART",
+          "streetName": "East Utica Street",
+          "absoluteDirection": "WEST",
+          "stayOn": false,
+          "area": false,
+          "bogusName": false,
+          "lon": -78.8655541,
+          "lat": 42.9112497,
+          "elevation": "",
+          "walkingBike": false
+        },
+        {
+          "distance": 517.45,
+          "relativeDirection": "LEFT",
+          "streetName": "Main Street",
+          "absoluteDirection": "SOUTH",
+          "stayOn": false,
+          "area": false,
+          "bogusName": false,
+          "lon": -78.865913,
+          "lat": 42.911246,
+          "elevation": "",
+          "walkingBike": false
+        },
+        {
+          "distance": 94.27,
+          "relativeDirection": "RIGHT",
+          "streetName": "Barker Street",
+          "absoluteDirection": "WEST",
+          "stayOn": false,
+          "area": false,
+          "bogusName": false,
+          "lon": -78.8674698,
+          "lat": 42.9067348,
+          "elevation": "",
+          "walkingBike": false
+        },
+        {
+          "distance": 53.14,
+          "relativeDirection": "LEFT",
+          "streetName": "service road",
+          "absoluteDirection": "SOUTH",
+          "stayOn": false,
+          "area": false,
+          "bogusName": true,
+          "lon": -78.8686273,
+          "lat": 42.9067366,
+          "elevation": "",
+          "walkingBike": false
+        }
+      ],
+      "rentedBike": false,
+      "walkingBike": false,
+      "duration": 584
+    },
+    {
+      "duration": 66.53668031854144,
+      "distance": 78.5132827758789,
+      "legGeometry": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              -78.86807597657699,
+              42.905566326386385
+            ],
+            [
+              -78.8681373958813,
+              42.90556779442788
+            ],
+            [
+              -78.8681373049909,
+              42.90557827978131
+            ],
+            [
+              -78.8683857771914,
+              42.905585606054444
+            ],
+            [
+              -78.86838709325181,
+              42.90556407834657
+            ],
+            [
+              -78.86899485004002,
+              42.90560360166107
+            ]
+          ],
+          "type": "LineString"
+        },
+        "properties": {
+          "name": "wayfind-path-geojson"
+        },
+        "points": "y~zdGn|j`N?JA?Ap@D?GvB"
+      },
+      "steps": [
+        {
+          "directions": " Turn Right at Small Conference (104) in 17 feet",
+          "lat": 42.90556779442788,
+          "distance": 4.939329624176025,
+          "lon": -78.8681373958813
+        },
+        {
+          "lon": -78.8681373049909,
+          "lat": 42.90557827978131,
+          "distance": 1.0976288318634033
+        },
+        {
+          "directions": " Turn Left at Office #6 (124) in 67 feet",
+          "lat": 42.905585606054444,
+          "distance": 20.269439697265625,
+          "lon": -78.8683857771914
+        },
+        {
+          "directions": " Turn Right at Office #6 (124) in 8 feet",
+          "lat": 42.90556407834657,
+          "distance": 2.33246111869812,
+          "lon": -78.86838709325181
+        },
+        {
+          "lon": -78.86899485004002,
+          "lat": 42.90560360166107,
+          "distance": 49.87442398071289
+        }
+      ],
+      "endTime": 1699646867076,
+      "startTime": 1699646867076,
+      "mode": "INDOOR"
+    }
+  ],
+  "tooSloped": false,
+  "arrivedAtDestinationWithRentedBicycle": false,
+  "routeType": "walkToTransit",
+  "delay": 283,
+  "timeScore": 2814.3333333333335,
+  "score": null,
+  "ecoHarm": 28.733333333333334,
+  "id": 1699646865597
+}

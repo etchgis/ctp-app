@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125404350397",
+    "project_id": "complete-trip",
+    "storage_bucket": "complete-trip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125404350397:android:0c6336c08d0b33a003f4d4",
+        "android_client_info": {
+          "package_name": "app.etch.completetrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125404350397-ctce2d44gored840d8uftqq0b85q8j5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA99sq-tGzth7X9r-K5YTvIJNXrl-0xPjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125404350397-ctce2d44gored840d8uftqq0b85q8j5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

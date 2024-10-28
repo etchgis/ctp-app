@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:184 Goodell Street.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:VIA Center 1.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:VIA Center 2.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:VIA Center 3.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:VIA Center 4.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:640 Ellicot Street.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:3233 Bailey Avenue.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:640 Ellicot Street Movement.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:completeTrip.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

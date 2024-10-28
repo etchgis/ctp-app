@@ -1,0 +1,801 @@
+{
+  "views": {
+    "account": {
+      "accessibility": {
+        "header": "Accesibilidad",
+        "directions": "Direcciones de navegación",
+        "directionsLabel": "Toque para activar o desactivar las indicaciones de navegación por voz.",
+        "language": "Idioma de visualización",
+        "languageLabel": "Toque para cambiar el idioma.",
+        "voiceOn": "Activar Voz",
+        "voiceOff": "Desactivar Voz",
+        "english": "Inglés",
+        "spanish": "Español",
+        "push": "Push",
+        "sms": "SMS",
+        "phone": "Teléfono",
+        "notificationToggle": "Toque para alternar notificaciones encendidas/apagadas para %{type}."
+      },
+      "caregivers": {
+        "header": "Coordinador",
+        "invite": "Invitar a un Coordinador",
+        "pending": "PENDIENTE",
+        "received": "RECEIVED",
+        "title": "Invitar a un Coordinador",
+        "emailError": "Correo electrónico inválido",
+        "inviteLabel": "Invitar",
+        "delete": "Eliminar a este coordinador",
+        "deleteConfirm": "¿Está seguro de que desea eliminar a este coordinador?"
+      },
+      "dependents": {
+        "header": "Viajero",
+        "accept": "Aceptar",
+        "decline": "Declinar",
+        "delete": "Eliminar este viajero",
+        "deleteLabel": "¿Estás seguro de que quieres eliminar a este viajero?"
+      },
+      "favorites": {
+        "header": "Favoritos",
+        "locations": "Ubicaciones favoritas",
+        "trips": "Viajes Favoritos",
+        "delete": "Eliminar este %{type}",
+        "deleteConfirm": "¿Estás seguro(a) de que quieres eliminar esta %{type}?"
+      },
+      "feedback": {
+        "header": "Comentario",
+        "inputPlaceholder": "Escriba sus comentarios aquí...",
+        "disclaimer": "Se incluirán su nombre y dirección de correo electrónico para que podamos responderle si es necesario.",
+        "popUpTitle": "Elige una categoría",
+        "categories": {
+          "scheduling": "Programación de viajes",
+          "shuttle": "Community Shuttle",
+          "intersections": "Intersecciones inteligentes",
+          "transit": "Tránsito (autobús, ferrocarril)",
+          "outdoorNavigation": "Navegación al aire libre",
+          "indoorNavigation": "Navegación interior",
+          "caregiver": "Coordinador y Viajero",
+          "accessibility": "Accesibilidad",
+          "mapping": "Mapeo general",
+          "other": "Otro"
+        },
+        "stars": {
+          "overall": "Satisfacción general",
+          "outdoor": "Navegación al aire libre",
+          "indoor": "Navegación interior"
+        },
+        "alert": {
+          "title": "Comentarios enviados",
+          "message": "Gracias por enviar tus comentarios.",
+          "buttons": {
+            "dismiss": "Despedir"
+          }
+        }
+      },
+      "menu": {
+        "header": "Perfil y configuración",
+        "account": "CUENTA",
+        "profile": "Información del Perfil",
+        "caregivers": "Coordinadores",
+        "dependents": "Viajeros(as)",
+        "feedback": "Comentario",
+        "favorites": "Favoritos(as)",
+        "preferences": "Preferencias de Viaje",
+        "settings": "CONFIGURACIÓN",
+        "password": "Contraseña",
+        "accessibility": "Accesibilidad",
+        "notifications": "Notificaciones",
+        "misc": "MISC",
+        "help": "Ayuda",
+        "termsAndConditions": "Términos y condiciones",
+        "logOut": "Cerrar Sesión",
+        "leave": "Salir",
+        "alerts": {
+          "warning": {
+            "title": "Advertencia",
+            "message": "Debe iniciar sesión para acceder a esta función.",
+            "buttons": {
+              "ok": "OK"
+            }
+          },
+          "logout": {
+            "title": "Cerrar Sesión",
+            "message": "¿Estás seguro(a) de que quieres cerrar sesión?",
+            "buttons": {
+              "no": "No",
+              "yes": "Sí"
+            }
+          }
+        }
+      },
+      "notifications": {
+        "header": "Notificaciones",
+        "preference": "Tipo de Preferencia de Notificación",
+        "preferenceLabel": "Toque para cambiar su preferencia del tipo de notificación.",
+        "settings": "configuración",
+        "alerts": {
+          "alertToggle": "Toque para alternar notificaciones encendidas/apagadas para %{type}",
+          "rider": {
+            "title": "Alertas de Notificación al Pasajero",
+            "tripStart": "Inicio del viaje",
+            "transitArrive": "Llegada del Transporte Público",
+            "transitDelay": "Retraso en el Transporte Público",
+            "shuttleArrive": "Llegada del Autobús",
+            "intersection": "Información de Intersección"
+          },
+          "caregiver": {
+            "title": "Alertas de Notificación al Coordinador",
+            "dependentTripStart": "Inicio del viaje",
+            "dependentArriveDepart": "Llegada/salida del Viajero",
+            "dependentShuttleArriveDepart": "Llegada/Desembarque del Viajero en Autobús",
+            "dependentModeChange": "Cambio de Modo de Transporte del Viajero"
+          }
+        }
+      },
+      "password": {
+        "header": "Cambiar Contraseña",
+        "currentPasswordLabel": "Ingrese la Contraseña Actual",
+        "currentPasswordPlaceholder": "Contraseña",
+        "errors": {
+          "auth": "No Autorizado",
+          "incorrect": "La contraseña actual es incorrecta"
+        },
+        "reenterPasswordLabel": "Vuelva a Ingresar la Contraseña",
+        "reenterPasswordPlaceholder": "Contraseña"
+      },
+      "profile": {
+        "header": "Perfil",
+        "address": "DIRECCIÓN DEL HOGAR",
+        "editLabel": "Editar",
+        "deleteLabel": "Eliminar Cuenta",
+        "editProfileTitle": "Editar Perfil",
+        "addressInputPlaceholder": "Empiece a escribir la dirección aquí...",
+        "saveLabel": "Guardar",
+        "deleteTitle": "ELIMINAR CUENTA",
+        "deleteSubtitle": "¿Estás seguro de que quieres eliminar tu cuenta? Si lo haces, tendrás que volver a crear una nueva cuenta para acceder los servicios.",
+        "deleteConfirm": "ESCRIBE 'ELIMINAR MI CUENTA'",
+        "deleteConfirmLabel": "Eliminar Cuenta"
+      },
+      "tripPreferences": {
+        "header": "Preferencias de Viaje ",
+        "wheelchair": "Accesibilidad para Sillas de Ruedas",
+        "serviceAnimal": "Animal de Servicio",
+        "minimizeWalking": "Minimice la Distancia a Pie",
+        "maxTransfers": "Transferencias Máximas",
+        "maxTransfersLabel": "Toque para cambiar el número máximo de transferencias.",
+        "preferredModes": "Costo Máximo por Viaje"
+      },
+      "termsAndConditions": {
+        "header": "Términos y Condiciones",
+        "headerText": "Por favor, lea lo siguiente para conocer los términos y condiciones de la aplicación All Access que se aplican a su acceso y uso de nuestro sitio web, producto, servicios y aplicación móvil (es decir, la aplicación All Access) en relación con el cierto proyecto de despliegue de viaje completo Buffalo All Access (\"Buffalo Access\") (colectivamente, los \"Servicios\"). Al utilizar, acceder y/o descargar los Servicios (incluyendo, pero no limitado a la Aplicación All Access), usted reconoce que ha leído, entendido y aceptado estar legalmente obligado por los términos y condiciones establecidos en este documento (los \"Términos y Condiciones\") que regirán su derecho a usar y acceder a nuestros Servicios.",
+        "availability": "Disponibilidad",
+        "availabilityText": "A través de su uso de los Servicios, Buffalo Access se pondrá a su disposición en relación con los viajes hacia, desde y dentro y alrededor del Campus Médico de Buffalo Niagara. Se prohíbe la redistribución o republicación de cualquier parte de Buffalo Access, los Servicios o cualquier contenido de los mismos. Buffalo Access, en la medida permitida por la ley, incluyendo, pero no limitado a, el Título VI de la Ley de Derechos Civiles de 1964, según enmendada, se reserva el derecho de rechazar cualquiera o todos sus Servicios a cualquier persona. Buffalo Access se reserva el derecho de investigar y tomar medidas, incluyendo, pero no limitado a, la eliminación de los registros de un usuario, la cancelación de la cuenta de un usuario y/o la suspensión o terminación del acceso o uso de un usuario de cualquiera o todos los Servicios en respuesta a alegaciones de mala conducta o actividad ilegal.\n\nBuffalo Access está afiliado con la Autoridad de Transporte de la Frontera de Niágara, la Universidad de Buffalo, Buffalo Niagara Medical Campus Inc. y sus funcionarios, directores y representantes (colectivamente referidos como \"Grupos Afiliados\", \"nuestro\", \"nos\" o \"nosotros\").",
+        "liability": "Responsabilidad por Acceso y Uso; Conducta Prohibida",
+        "liabilityText": "Usted acepta que es completamente responsable de su acceso y uso de cualquiera y todos los Servicios, junto con todas y cada una de las actividades y conductas en las que usted y/o su cuenta, según corresponda, participen. Usted acepta no participar, ayudar o asistir en ninguna \"Conducta Prohibida\" en relación con su acceso o uso de cualquiera de los Servicios (definida en esta sección). La \"Conducta Prohibida\" incluye, pero no se limita a, cualquier conducta que sea ilegal, infractora (por ejemplo, descargar, copiar, redistribuir, compartir, cargar o hacer uso de cualquier material protegido por derechos de autor, video, audio o de otra manera sin el permiso del propietario), conducta ilícita que sea intencionalmente dañina para un individuo o entidad o conducta que negligentemente o a sabiendas ponga a un individuo o entidad en riesgo, o cualquier otra conducta que una persona razonable sabría o debería saber que violaría los derechos de propiedad intelectual, derechos de privacidad u otros derechos de otra parte; o conducta que de otra manera interfiera con la operación, el uso o el disfrute de cualquier servicio, sistema u otra propiedad. No utilizará ninguno de los Servicios, incluyendo, pero no limitado a la aplicación All Access, para participar en ninguna actividad que constituya o sea capaz de constituir un delito penal federal o estatal. No accederá ni utilizará ninguno de los Servicios con fines comerciales. Usted acepta y reconoce que es posible que tengamos que proporcionar asistencia e información a las fuerzas del orden, agencias gubernamentales y otras autoridades de vez en cuando, lo que puede concernir a su uso de cualquiera de los Servicios.",
+        "privacy": "Privacidad",
+        "privacyText": "Al utilizar o acceder a nuestros Servicios de cualquier manera, o al proporcionarnos Información Personal (definida a continuación), usted reconoce que acepta las prácticas y políticas descritas en el correspondiente formulario de consentimiento que ha completado en relación con su acceso y uso de los Servicios, y como puede detallarse en estos Términos y Condiciones, los cuales pueden ser modificados por nosotros de vez en cuando. Usted reconoce y acepta que Buffalo Access recopila varios tipos de Información Personal de los usuarios de los Servicios para ser utilizada intencionalmente en relación con la prestación de nuestros Servicios a través de Buffalo Access para permitirle configurar una cuenta de usuario y un perfil, contactarlo, cumplir con sus solicitudes de ciertos productos y Servicios, analizar cómo utiliza los Servicios y proporcionarle un apoyo integral para la planificación y ejecución de viajes basado en sus preferencias y necesidades relacionadas con la accesibilidad, y usted da su consentimiento para lo mismo, que también puede incluir datos basados en la ubicación según sea necesario de vez en cuando para proporcionarle ciertos Servicios. Buffalo Access recibe y almacena cualquier información que usted proporcione a sabiendas. Por ejemplo, a través del proceso de registro y/o a través de la configuración de su cuenta, Buffalo Access puede recopilar Información Personal, que incluirá, pero no necesariamente se limitará a, su nombre, dirección de correo electrónico y número de teléfono (la \"Información Personal\"). Antes de que sus datos sean almacenados, los datos serán anonimizados y encriptados de acuerdo con nuestros protocolos y políticas de privacidad estándar para mantener la seguridad y proteger la privacidad.\n\nCada vez que interactúa con nuestros Servicios, Buffalo Access recibe y registra automáticamente información en los registros de nuestro servidor desde su navegador o dispositivo, que puede incluir su dirección IP, identificación del dispositivo, información de \"cookies\", el tipo de navegador y/o dispositivo que está utilizando para acceder a nuestros Servicios, y la página o función que solicitó. Las \"cookies\" son identificadores que transferimos a su navegador o dispositivo que nos permiten reconocer su navegador o dispositivo y decirnos cómo y cuándo se visitan las páginas y funciones de nuestros Servicios y por cuántas personas. Es posible que pueda cambiar las preferencias en su navegador o dispositivo para evitar o limitar la aceptación de cookies por parte de su dispositivo, pero esto puede evitar que aproveche algunas o todas nuestras funciones o Servicios.",
+        "changesToApp": "Cambios en Buffalo Access",
+        "changesToAppText": "Buffalo Access puede terminar, cambiar, suspender o discontinuar cualquier aspecto de sus Servicios, incluida la eliminación, adición, modificación o cambio de cualquier característica y/o contenido en cualquier momento sin previo aviso ni responsabilidad. Buffalo Access se reserva el derecho, pero no estará obligado, a corregir cualquier error u omisión en cualquier parte de Buffalo Access en cualquier momento sin previo aviso a ningún usuario de Buffalo Access o tercero vinculado al sitio web o aplicación.",
+        "ownership": "Titularidad de la Propiedad Intelectual",
+        "ownershipText": "Los Servicios, incluidos, entre otros, la Aplicación All Access o el sitio web, pueden contener servicios, código de software, contenido, gráficos, logotipos, marcas, diseños, imágenes u otra propiedad intelectual que son propiedad o están licenciados por uno o más de nosotros, y todos los derechos, títulos e intereses sobre los mismos están reservados por nosotros, según corresponda. A menos que la ley aplicable lo permita específicamente, no puede copiar, compartir, distribuir, reproducir, cargar o hacer uso de dichos servicios, código de software, contenido, gráficos, logotipos, marcas, diseños, imágenes u otra propiedad intelectual sin el permiso expreso y por escrito de los propietarios aplicables de los mismos. A menos que se indique específicamente en este documento, ni su acceso ni el uso de ninguno de los Servicios, incluidos, entre otros, la Aplicación All Access, le otorgará ningún derecho, título o interés sobre ninguna patente, marca registrada, derechos de autor u otros derechos de propiedad intelectual que Buffalo Access, los Grupos Afiliados u otros puedan tener en dichos servicios, código de software, contenido, gráficos, logotipos, marcas, diseños, imágenes u otra propiedad intelectual.",
+        "liabilityLimitation": "Limitación de Responsabilidad",
+        "liabilityLimitationText": "NO SOMOS RESPONSABLES DE NINGÚN DAÑO DIRECTO, INDIRECTO, INCIDENTAL, EJEMPLAR, PUNITIVO, ESPECIAL O CONSECUENTE (INCLUYENDO, SIN LIMITACIÓN, PÉRDIDA DE BENEFICIOS, PÉRDIDA DE AHORROS, PÉRDIDA DE BUENA VOLUNTAD, REPUTACIÓN COMERCIAL U OPORTUNIDADES DE NEGOCIO, O DAÑOS RESULTANTES DE PÉRDIDA DE DATOS O INTERRUPCIÓN DEL NEGOCIO) RESULTANTES DEL ACCESO O USO DE, O INCAPACIDAD PARA ACCEDER O UTILIZAR, NUESTROS SERVICIOS, INCLUYENDO, PERO NO LIMITADO A, NUESTRO SITIO WEB, APLICACIÓN, CONTENIDO O DATOS, YA SEA BASADO EN GARANTÍA, CONTRATO, AGRAVIO (INCLUYENDO NEGLIGENCIA), O CUALQUIER OTRA TEORÍA LEGAL, INCLUSO SI NOS HA NOTIFICADO SOBRE TALES DAÑOS, O POR CUALQUIER RECLAMACIÓN POR PARTE DE TERCEROS.\n\nSI LA LEY APLICABLE PROHÍBE O LIMITA LAS LIMITACIONES ANTERIORES ESTABLECIDAS ANTERIORMENTE, Y SE ENCUENTRA QUE SOMOS RESPONSABLES, EN NINGÚN CASO NUESTRA RESPONSABILIDAD HACIA USTED QUE SURJA DE O SE RELACIONE CON SU ACCESO O USO DE NUESTROS SERVICIOS, INCLUYENDO, PERO NO LIMITADO A, NUESTRO SITIO WEB, APLICACIÓN, CONTENIDO O DATOS, EXCEDERÁ LOS CIEN DÓLARES ESTADOUNIDENSES ($100.00).\n\nAlgunos estados no permiten la exclusión de garantías implícitas o la limitación de responsabilidad por daños incidentales o consecuentes, por lo que las limitaciones o exclusiones anteriores pueden no aplicarse en su caso. En tales estados, nuestra responsabilidad hacia usted se limitará en la mayor medida permitida por la ley aplicable.",
+        "disclaimer": "Renuncia de Garantías",
+        "disclaimerText": "SU USO DE LOS SERVICIOS, INCLUYENDO, PERO NO LIMITADO A, NUESTRO SITIO WEB, APLICACIÓN, CONTENIDO O DATOS ES BAJO SU PROPIO RIESGO EN TODO MOMENTO Y USTED ACEPTA ASUMIR DICHO RIESGO. LOS SERVICIOS, INCLUYENDO, PERO NO LIMITADO A, NUESTRO SITIO WEB, APLICACIÓN, CONTENIDO O DATOS, SE PROPORCIONAN \"TAL CUAL\".\n\nPOR LA PRESENTE RENUNCIAMOS A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO, SIN LIMITACIÓN, GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR, TÍTULO Y NO INFRACCIÓN. RENUNCIAMOS A TODAS LAS GARANTÍAS RELACIONADAS CON LA DISPONIBILIDAD, EXACTITUD, SEGURIDAD, PRIVACIDAD, CONFIDENCIALIDAD, IDONEIDAD, CONFIABILIDAD, INTEGRIDAD O PUNTUALIDAD RELACIONADAS CON LOS SERVICIOS, INCLUYENDO, PERO NO LIMITADO A, NUESTRA APLICACIÓN, SITIO WEB, CONTENIDO O DATOS. RENUNCIAMOS A CUALQUIER GARANTÍA DE QUE LOS SERVICIOS, INCLUYENDO, PERO NO LIMITADO A, NUESTRO SITIO WEB, APLICACIÓN, CONTENIDO O DATOS, SERÁN ININTERRUMPIDOS, LIBRES DE VIRUS U OTRO MALWARE, NO SE RETRASARÁN NI SUSPENDERÁN, NO SE MODIFICARÁN O ESTARÁN LIBRES DE ERRORES O QUE CORREGIREMOS CUALQUIER DEFECTO.",
+        "indemnification": "Indemnización",
+        "indemnificationText": "Usted acepta indemnizar y mantener indemne a Buffalo Access, los Grupos Afiliados y todos sus respectivos funcionarios, directores, miembros, accionistas, fideicomisarios, empleados, agentes y representantes de y contra todos y cada uno de los reclamos, demandas, responsabilidades, pérdidas, daños, sentencias, acuerdos, costos o gastos, incluyendo honorarios de abogados, que surjan de o resulten de sus actos, omisiones o incumplimiento de cualquier disposición de estos Términos y Condiciones o que de otra manera surjan de cualquier forma de su uso de los Servicios. Esta sección no se interpretará para limitar o excluir cualquier otro reclamo o recurso que Buffalo Access y/o los Grupos Afiliados puedan hacer valer por ley, en equidad o de otra manera.",
+        "miscellaneous": "Misceláneo",
+        "miscellaneousText": "Estos Términos y Condiciones se regirán, interpretarán y aplicarán de acuerdo con las leyes del Estado de Nueva York, sin tener en cuenta sus normas de conflicto de leyes. Cualquier demanda, acción o procedimiento legal que surja de, o esté relacionado con, estos Términos y Condiciones, o su acceso o uso de los Servicios, se iniciará exclusivamente en el tribunal federal o estatal de jurisdicción competente ubicado en el Condado de Erie, Nueva York. Usted renuncia a todas y cada una de las objeciones al ejercicio de la jurisdicción sobre usted por parte de dichos tribunales y a la competencia en dichos tribunales. Estos Términos y Condiciones, junto con cualquier otro término, condición y política a los que se haga referencia en este documento, constituirán el acuerdo completo entre usted y nosotros con respecto a su acceso y/o uso de cualquiera o todos los Servicios y el mismo reemplazará todos los entendimientos y acuerdos anteriores y contemporáneos, tanto escritos como orales, con respecto al objeto del presente entre usted y nosotros. Si se determina que cualquier término o disposición contenida en este documento es inválido, ilegal o inaplicable en cualquier jurisdicción, dicha invalidez, ilegalidad o inaplicabilidad no afectará la validez, legalidad o aplicabilidad de cualquier otro término o disposición contenida en este documento ni invalidará o hará inaplicable dicho término o disposición en cualquier otra jurisdicción. Los encabezados de estos Términos y Condiciones son solo para referencia y no afectarán la interpretación de los términos y condiciones contenidos en este documento. Estos Términos y Condiciones serán vinculantes y redundarán en beneficio de nosotros y de usted, y de los respectivos sucesores y cesionarios permitidos de los mismos. No puede ceder sus derechos u obligaciones en virtud del presente documento sin nuestro consentimiento previo por escrito, y cualquier intento de realizar una cesión no permitida será nulo y sin efecto ab initio. Nada de lo dispuesto en estos Términos y Condiciones se interpretará como una concesión a ninguna persona, que no seamos nosotros y usted, de ningún derecho o beneficio en virtud del presente.",
+        "changesToTerms": "Cambios en los Términos y Condiciones",
+        "changesToTermsText": "Nos reservamos el derecho de cambiar, enmendar o modificar estos Términos y Condiciones de vez en cuando según lo consideremos oportuno."
+      },
+      "consent": {
+        "title": "Permiso para participar en un Estudio de Investigación en Humanos",
+        "header": "Formulario de consentimiento",
+        "headerText": "Revise el consentimiento para participar en la investigación de evaluación de la aplicación Buffalo NY ITS4US All Access. El estudio de investigación fue aprobado por la Junta de Revisión Institucional de la Universidad de Buffalo (UBIRB) (N.º de identificación de garantía federal de la UB: FWA00008824)",
+        "info1": "Información clave:",
+        "info1Text": "El siguiente es un breve resumen de este estudio para ayudarle a decidir si le gustaría participar o no. A continuación, se proporciona información más detallada.",
+        "q1": "¿Por qué me invitan a participar en un estudio de investigación?",
+        "a1": "Se le invita a participar en un estudio de investigación porque cumple con una o más de las siguientes categorías: trabajo y/o viaje al Buffalo Niagara Medical Center; y, al menos 18 años de edad.",
+        "q2": "¿Qué debo saber sobre un estudio de investigación?",
+        "a2a": "Participar o no depende de ti.",
+        "a2b": "Puede optar por no participar.",
+        "a2c": "Puede aceptar participar y luego cambiar de opinión.",
+        "a2d": "Su decisión no será considerada en su contra.",
+        "a2e": "Puedes hacer todas las preguntas que quieras antes de decidirte.",
+        "q3": "¿Por qué se realiza esta investigación?",
+        "a3": "El propósito de esta investigación es determinar la utilidad de tres nuevas tecnologías para mejorar la capacidad de las personas para viajar hacia o desde el Centro Médico Buffalo Niagara o alrededor de sus vecindarios. Las cuatro tecnologías son una aplicación de planificación de viajes (Buffalo All Access), un servicio de transporte comunitario (tanto operado por humanos como autónomo), guía de rutas en exteriores e interiores, y tecnología de cruce seguro de intersecciones.",
+        "q4": "¿Cuánto tiempo durará la investigación y qué tendré que hacer?",
+        "a4": "La investigación durará unos 18 meses. Se le pedirá que complete una encuesta introductoria sobre sus comportamientos de viaje actuales, seguida de tres encuestas sobre cualquier cambio en su comportamiento de viaje y sus percepciones de las nuevas tecnologías. Se puede encontrar información más detallada sobre los procedimientos del estudio en \"¿Qué sucede si digo que sí, que quiero participar en esta investigación?\"",
+        "q5": "¿Hay alguna forma en que estar en este estudio podría ser malo para mí?",
+        "a5": "Los riesgos de participar en este estudio son mínimos. Se puede encontrar información más detallada sobre los riesgos de este estudio en \"¿Hay alguna manera de que participar en este estudio pueda ser malo para mí? (Riesgos detallados)\"",
+        "q6": "¿Participar en este estudio me ayudará de alguna manera?",
+        "a6": "Es posible que no haya un beneficio directo para usted personalmente por participar en este estudio. No podemos prometer ningún beneficio a otros por su participación en esta investigación. Sin embargo, la información que proporcione permitirá un mayor desarrollo de estas tecnologías, y otras similares, para ofrecer mejores experiencias de viaje para personas como usted.",
+        "q7": "¿Qué pasa si no quiero estar en esta investigación?",
+        "a7": "La participación en la investigación es completamente voluntaria. Usted puede optar por no inscribirse en este estudio. Su negativa a participar no implicará ninguna penalización o pérdida de beneficios a los que tenga derecho.",
+        "info2": "Información detallada:",
+        "info2Text": "La siguiente es información más detallada sobre este estudio, además de la información mencionada anteriormente.",
+        "q8": "¿Con quién puedo hablar?",
+        "a8a": "Si tiene preguntas, inquietudes o quejas, o cree que la investigación lo ha perjudicado, hable con el equipo de investigación en (716) 829-5902 o envíe un correo electrónico a jlmaisel@buffalo.edu. También puede comunicarse con el defensor de participantes de la investigación al 716-888-4845 o researchadvocate@buffalo.edu.\n\nEsta investigación ha sido revisada y aprobada por una Junta de Revisión Institucional (\"IRB\"). Un IRB es un comité que supervisa ética y reglamentariamente la investigación que involucra a seres humanos. Puede hablar con ellos al (716) 888-4888 o enviar un correo electrónico a ub-irb@buffalo.edu si:",
+        "a8b": "Tiene preguntas sobre sus derechos como participante en esta investigación.",
+        "a8c": "Sus preguntas, inquietudes o quejas no están siendo respondidas por el equipo de investigación.",
+        "a8d": "No puede comunicarse con el equipo de investigación.",
+        "a8e": "Quieres hablar con alguien que no sea el equipo de investigación.",
+        "a8f": "Desea obtener información o proporcionar información sobre esta investigación.",
+        "q9": "¿Cuántas personas serán estudiadas?",
+        "a9": "Esperamos que alrededor de 500 personas participen en este estudio de investigación; un total inicial de 100 personas, aumentando hasta llegar a 500 personas a medida que avanza el estudio.",
+        "q10": "¿Qué pasa si digo que sí, que quiero estar en esta investigación?",
+        "a10": "Si decide participar, utilizará la aplicación de planificación de viajes (Buffalo All Access), un servicio de transporte comunitario (tanto operado por humanos como autónomo), guía de rutas en exteriores e interiores y tecnología de cruce seguro de intersecciones.\n\nAdemás de utilizar las cuatro tecnologías, se le pedirá que participe en una serie de encuestas. Cada encuesta tardará aproximadamente entre 15 y 20 minutos en completarse. Las encuestas se llevarán a cabo aproximadamente cada tres a seis meses. Puede completar la encuesta en su dispositivo móvil, computadora portátil, computadora de escritorio o por teléfono. La encuesta consta de preguntas sobre (1) su comportamiento de viaje, (2) los desafíos para viajar hacia o desde el BNMC o su vecindario, (3) el uso de las tecnologías implementadas, (4) sus percepciones de las tecnologías, y (5) información demográfica. La información demográfica incluye su código postal, nombre e información de contacto. También se le hará una sola pregunta en la aplicación para evaluar su satisfacción [con la aplicación o el servicio] después de cada uso.\n\nAdemás de completar encuestas, cuando utilice la aplicación de planificación de viajes o el servicio de transporte comunitario como participante en el estudio, también se capturarán datos pasivos. Dichos datos incluirán el registro y el uso de la aplicación (p. ej., frecuencia, hora del día), así como el viaje (p. ej., planificación de viaje, reserva de viaje, modo de viaje del viaje, lugar de recogida/devolución del servicio de transporte). Dichos datos se vincularán a los datos de la encuesta a través de la identificación del encuestado de los participantes del estudio para proteger la información de identificación personal y se recopilarán y almacenarán solo para aquellas personas que hayan dado su consentimiento para ser parte del estudio. Si bien es posible, no se capturarán geolocalizaciones específicas para proteger la información de identificación personal.",
+        "q11": "¿Qué pasa si digo que sí, pero luego cambio de opinión?",
+        "a11": "Puede abandonar la investigación en cualquier momento, ya que no se le imputará. Si decide abandonar la investigación, es posible que los datos ya recopilados no se eliminen de la base de datos del estudio.",
+        "q12": "¿Hay alguna forma en que estar en este estudio podría ser malo para mí? (Riesgos detallados)",
+        "a12": "No estamos anticipando ninguna forma en la que este estudio pueda perjudicarlo. Los riesgos de participar en este estudio son mínimos y no son mayores que los que están presentes en la vida cotidiana.\n\nEstos riesgos mínimos se asocian principalmente con el uso de la lanzadera autónoma. Si bien el potencial es pequeño, debemos mencionarlos aquí. Con el transbordador autónomo, podría haber paradas repentinas debido a la forma en que la tecnología percibe el entorno que lo rodea, así como al potencial del transbordador autónomo para viajar más allá del entorno operativo para el que está diseñado. Un mayordomo/operador experimentado estará a bordo de la lanzadera autónoma en todo momento para garantizar la seguridad y ayudar con cualquier situación que pueda surgir. El vehículo autónomo se ha desplegado con éxito en otros lugares y se ha probado su seguridad.",
+        "q13": "¿Qué sucede con la información recopilada para la investigación?",
+        "a13": "Los datos recopilados se almacenarán en servidores seguros en la Universidad de Buffalo y solo serán accesibles para los miembros del equipo de investigación y estarán protegidos con contraseña. Las identidades de los sujetos se mantendrán confidenciales. Esta información se almacenará de forma segura en archivos separados protegidos por contraseña en servidores seguros.\n\nSe harán esfuerzos para limitar el uso y la divulgación de su información personal a las personas que tengan la necesidad de revisar esta información. No podemos prometer un secreto total. Las organizaciones que pueden inspeccionar y copiar su información incluyen el IRB y otros representantes de esta organización.\n\nLos resultados de este estudio pueden ser publicados en revistas científicas, publicaciones profesionales o presentaciones educativas. Su nombre solo se conectará a las respuestas de la encuesta a través de un número de identificación del estudio y no se utilizará en ningún informe. La información anónima recopilada durante el estudio podría utilizarse para futuros estudios de investigación o distribuirse a otro investigador para futuros estudios de investigación sin el consentimiento informado adicional de los participantes.",
+        "q14": "¿Puedo ser eliminado/a de la investigación sin mi aprobación?",
+        "a14": "No puede ser eliminado del estudio de investigación sin su aprobación.",
+        "q15": "¿Qué más necesito saber?",
+        "q15q1": "¿Quién está pagando por esta investigación?",
+        "q15a1": "Esta investigación está siendo financiada por el Departamento de Transporte de los Estados Unidos.",
+        "q15q2": "¿Me pagarán por mi participación en esta investigación?",
+        "q15a2": "Si acepta participar en este estudio de investigación y completa las cuatro encuestas, será elegible para participar en un sorteo para recibir hasta $500. Debe planear completar cuatro encuestas durante un período de 18 meses. Los pagos que reciba por su participación en esta investigación se consideran ingresos imponibles.",
+        "confirm": "DECLARACIÓN DE CONSENTIMIENTO INFORMADO DEL PARTICIPANTE:  \"Tengo al menos 18 años de edad, he leído y entiendo la explicación que se me proporcionó y acepto voluntariamente participar en este estudio\". (Al hacer clic en la casilla, se da como consentimiento)."
+      },
+      "terms": {
+        "header": "Condiciones de Uso",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Proin fermentum leo vel orci. In nulla posuere sollicitudin aliquam ultrices. Enim neque volutpat ac tincidunt vitae. Pharetra convallis posuere morbi leo urna molestie at. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. In est ante in nibh. Lobortis mattis aliquam faucibus purus in massa tempor nec. Eget velit aliquet sagittis id consectetur. Lacus sed turpis tincidunt id aliquet risus feugiat in. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Praesent tristique magna sit amet purus gravida. A cras semper auctor neque vitae. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Varius quam quisque id diam. Phasellus vestibulum lorem sed risus ultricies. Mollis nunc sed id semper risus in.\n\nVolutpat commodo sed egestas egestas. Ut venenatis tellus in metus vulputate. Rhoncus est pellentesque elit ullamcorper dignissim cras. At risus viverra adipiscing at in tellus integer. Libero enim sed faucibus turpis in eu mi bibendum. Convallis convallis tellus id interdum velit laoreet id donec. Quam vulputate dignissim suspendisse in est ante in. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Gravida rutrum quisque non tellus. Massa tincidunt dui ut ornare lectus sit amet est placerat. Habitasse platea dictumst quisque sagittis purus. Quam nulla porttitor massa id. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet aliquam id diam maecenas ultricies mi. Mattis nunc sed blandit libero volutpat sed. Turpis egestas maecenas pharetra convallis posuere morbi. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Semper viverra nam libero justo laoreet sit amet cursus. Libero enim sed faucibus turpis in eu mi bibendum. Tortor at auctor urna nunc id cursus.\n\nSed tempus urna et pharetra pharetra massa massa. Lorem mollis aliquam ut porttitor leo a. Enim diam vulputate ut pharetra. Venenatis cras sed felis eget. Consequat ac felis donec et odio pellentesque diam. Senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Fusce ut placerat orci nulla pellentesque dignissim enim. Ante in nibh mauris cursus mattis molestie a iaculis. Nulla pharetra diam sit amet. Massa tincidunt dui ut ornare lectus sit amet est. Eu nisl nunc mi ipsum faucibus vitae aliquet. Diam in arcu cursus euismod quis viverra nibh cras. Fusce ut placerat orci nulla pellentesque dignissim enim. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. In hac habitasse platea dictumst quisque sagittis purus sit amet.\n\nRhoncus mattis rhoncus urna neque viverra justo nec ultrices. Amet luctus venenatis lectus magna fringilla. Blandit massa enim nec dui. Consectetur adipiscing elit duis tristique sollicitudin nibh. Eget duis at tellus at. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Imperdiet dui accumsan sit amet nulla facilisi. Eu augue ut lectus arcu bibendum at. Eget dolor morbi non arcu risus quis varius. Purus in mollis nunc sed. Dui vivamus arcu felis bibendum ut tristique. In cursus turpis massa tincidunt dui ut ornare.\n\nEget dolor morbi non arcu risus. Ac tortor dignissim convallis aenean. Leo vel orci porta non pulvinar neque. Nulla facilisi cras fermentum odio eu feugiat. Tincidunt tortor aliquam nulla facilisi cras. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Lectus mauris ultrices eros in cursus. Adipiscing at in tellus integer. Enim ut tellus elementum sagittis vitae et leo duis ut. Donec et odio pellentesque diam. Nec nam aliquam sem et tortor consequat. A pellentesque sit amet porttitor eget dolor morbi non. Massa eget egestas purus viverra."
+      },
+      "privacy": {
+        "header": "Política de Privacidad",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Proin fermentum leo vel orci. In nulla posuere sollicitudin aliquam ultrices. Enim neque volutpat ac tincidunt vitae. Pharetra convallis posuere morbi leo urna molestie at. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. In est ante in nibh. Lobortis mattis aliquam faucibus purus in massa tempor nec. Eget velit aliquet sagittis id consectetur. Lacus sed turpis tincidunt id aliquet risus feugiat in. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Praesent tristique magna sit amet purus gravida. A cras semper auctor neque vitae. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Varius quam quisque id diam. Phasellus vestibulum lorem sed risus ultricies. Mollis nunc sed id semper risus in.\n\nVolutpat commodo sed egestas egestas. Ut venenatis tellus in metus vulputate. Rhoncus est pellentesque elit ullamcorper dignissim cras. At risus viverra adipiscing at in tellus integer. Libero enim sed faucibus turpis in eu mi bibendum. Convallis convallis tellus id interdum velit laoreet id donec. Quam vulputate dignissim suspendisse in est ante in. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Gravida rutrum quisque non tellus. Massa tincidunt dui ut ornare lectus sit amet est placerat. Habitasse platea dictumst quisque sagittis purus. Quam nulla porttitor massa id. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet aliquam id diam maecenas ultricies mi. Mattis nunc sed blandit libero volutpat sed. Turpis egestas maecenas pharetra convallis posuere morbi. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Semper viverra nam libero justo laoreet sit amet cursus. Libero enim sed faucibus turpis in eu mi bibendum. Tortor at auctor urna nunc id cursus.\n\nSed tempus urna et pharetra pharetra massa massa. Lorem mollis aliquam ut porttitor leo a. Enim diam vulputate ut pharetra. Venenatis cras sed felis eget. Consequat ac felis donec et odio pellentesque diam. Senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Fusce ut placerat orci nulla pellentesque dignissim enim. Ante in nibh mauris cursus mattis molestie a iaculis. Nulla pharetra diam sit amet. Massa tincidunt dui ut ornare lectus sit amet est. Eu nisl nunc mi ipsum faucibus vitae aliquet. Diam in arcu cursus euismod quis viverra nibh cras. Fusce ut placerat orci nulla pellentesque dignissim enim. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. In hac habitasse platea dictumst quisque sagittis purus sit amet.\n\nRhoncus mattis rhoncus urna neque viverra justo nec ultrices. Amet luctus venenatis lectus magna fringilla. Blandit massa enim nec dui. Consectetur adipiscing elit duis tristique sollicitudin nibh. Eget duis at tellus at. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Imperdiet dui accumsan sit amet nulla facilisi. Eu augue ut lectus arcu bibendum at. Eget dolor morbi non arcu risus quis varius. Purus in mollis nunc sed. Dui vivamus arcu felis bibendum ut tristique. In cursus turpis massa tincidunt dui ut ornare.\n\nEget dolor morbi non arcu risus. Ac tortor dignissim convallis aenean. Leo vel orci porta non pulvinar neque. Nulla facilisi cras fermentum odio eu feugiat. Tincidunt tortor aliquam nulla facilisi cras. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Lectus mauris ultrices eros in cursus. Adipiscing at in tellus integer. Enim ut tellus elementum sagittis vitae et leo duis ut. Donec et odio pellentesque diam. Nec nam aliquam sem et tortor consequat. A pellentesque sit amet porttitor eget dolor morbi non. Massa eget egestas purus viverra."
+      }
+    },
+    "home": {
+      "greeting": "Hola",
+      "greetingGuest": "Invitado",
+      "followUser": "Seguir al Usuario",
+      "feedback": {
+        "modalTitle": "Feedback",
+        "modalSubTitle": "Please share your thoughts on how we can provide better service."
+      },
+      "gpsWarning": "Advertencia: los problemas de precisión del GPS en esta área pueden afectar la planificación del viaje y la navegación. Por favor tenga cuidado."
+    },
+    "login": {
+      "confirmLogin": {
+        "errors": {
+          "code": "Código inválido",
+          "known": "Error desconocido"
+        },
+        "title": "Ingrese el código de 6 dígitos que se le envió.",
+        "resendText": "¿No recibiste el código?",
+        "resendLabel": "Reenviar"
+      },
+      "login": {
+        "title": "Bienvenido",
+        "error": "Se requiere correo electrónico y contraseña",
+        "forgotPassword": "¿Olvidó su contraseña?",
+        "noAccount": "¿No tiene una cuenta?",
+        "modalTitle": "Verifique su identidad",
+        "modalConfirm": "¿Cómo le gustaría recibir su código?"
+      }
+    },
+    "navigator": {
+      "alerts": {
+        "summonPress": {
+          "title": "Llamar al Autobús Comunitario",
+          "message": "¿Está seguro(a) de que quiere llamar al autobús comunitario a su ubicación actual?",
+          "buttons": {
+            "cancel": "Cancelar",
+            "summon": "Llamar"
+          }
+        },
+        "cancelSummonPress": {
+          "title": "Cancelar el Autobús Comunitario",
+          "message": "¿Está seguro(a) de que quiere cancelar el autobús comunitario?",
+          "buttons": {
+            "no": "No",
+            "proceed": "Proceder"
+          }
+        },
+        "offerNewTripPress": {
+          "title": "Advertencia",
+          "message": "Corre el riesgo de perder un autobús en su viaje. ¿Quieres buscar otro viaje?",
+          "buttons": {
+            "cancel": "Cancelar",
+            "getNewTrip": "OBTENER NUEVO VIAJE"
+          }
+        }
+      },
+      "summonShuttleLabel": "LLAMAR AL AUTOBÚS",
+      "cancelShuttleLabel": "CANCELAR EL AUTOBÚS",
+      "near": "Está cerca de su destino.",
+      "indoorMessage": "Si desea cambiar al mapa interior, el icono del edificio para el mapa interior se encuentra en la parte inferior derecha.",
+      "outdoorMessage": "Si desea cambiar al mapa exterior, el icono del mapa para el mapa exterior se encuentra en la parte inferior derecha.",
+      "requestCrosswalk": "Solicitud para cruzar la intersección",
+      "crosswalkRequested": "Se solicita señal de cruce de peatones"
+    },
+    "onboard": {
+      "address": {
+        "title": "Agregar Dirección de su Hogar",
+        "subTitle": "Esto ayuda a crear rutas desde su hogar con facilidad.",
+        "addressInputPlaceholder": "Empiece a escribir la dirección aquí...",
+        "error": "Agregue la dirección de su hogar o presione el botón Omitir a continuación.",
+        "selectedAddress": "DIRECCIÓN SELECCIONADA"
+      },
+      "caregiver": {
+        "title": "Agregar Coordinador Principal",
+        "subTitle": "Notifica a tus acompañantes con un toque para cualquiera de tus viajes.",
+        "firstNameError": "nombre inválido",
+        "lastNameError": "apellido inválido",
+        "emailError": "correo electrónico inválido"
+      },
+      "confirmPhone": {
+        "intro": "Ya casi terminamos. Espere mientras terminamos de procesar su cuenta.",
+        "errors": {
+          "code": "Código inválido.",
+          "unknown": "Error desconocido"
+        },
+        "resendText": "¿No recibiste el mensaje de texto?",
+        "resendLabel": "Reenviar"
+      },
+      "contact": {
+        "title": "Agregar información de contacto",
+        "subTitle": "Verifique su correo electrónico a continuación e ingrese su número de teléfono.",
+        "phonePlaceholder": "Número de Teléfono"
+      },
+      "enhanced": {
+        "title": "Opciones de Movilidad Mejoradas",
+        "menuItem1": "Accesibilidad para Sillas de Ruedas",
+        "menuItem2": "Animal de Servicio"
+      },
+      "location": {
+        "title": "Requiere acceso a su ubicación",
+        "subTitle1": "Antes de comenzar, necesitamos información de ubicación para hacer estimaciones precisas de ruta, precios y rastreo. ¿Está bien?",
+        "subTitle2": "Cuando se le solicite, elija 'mientras usa la aplicación' para obtener la mejor experiencia con la aplicación."
+      }
+    },
+    "recoverAccount": {
+      "changePassword": {
+        "title": "Cambiar\nContraseña",
+        "subTitle": "Ingrese el código de 6 dígitos que se le envió.",
+        "newPasswordLabel": "Introduzca una Nueva Contraseña",
+        "newPasswordPlaceholder": "Contraseña",
+        "reenterPasswordLabel": "Vuelva a ingresar la nueva contraseña",
+        "reenterPasswordPlaceholder": "Contraseña",
+        "changePasswordLabel": "Cambiar contraseña",
+        "newCode": "¿Necesitas otro código de 6 dígitos?",
+        "request": "Solicítalo de nuevo."
+      },
+      "forgotPassword": {
+        "title": "Olvidé mi Contraseña",
+        "modalTitle": "Actualice su Contraseña",
+        "modalSubTitle": "Para restablecer su contraseña, se le enviará un código al dispositivo registrado con nosotros.",
+        "modalConfirm": "¿Cómo le gustaría recibir el código?"
+      }
+    },
+    "register": {
+      "account": {
+        "title": "Crear\ncuenta",
+        "emailError": "correo electrónico inválido",
+        "userError": "Ya existe un usuario con ese correo electrónico. Por favor, pruebe con un correo electrónico diferente.",
+        "checkBoxText1": "Acepto los ",
+        "checkBoxText2": "Términos y Condiciones",
+        "buttonLabel": "Crear",
+        "accountLabel": "¿Ya tiene una cuenta? ",
+        "termsTitle": "Términos y Condiciones"
+      },
+      "confirmEmail": {
+        "intro": "Ya casi terminamos. Espere mientras terminamos de procesar su cuenta.",
+        "title": "Ngrese el código de 6 dígitos enviado al correo electrónico que proporcionó.",
+        "resend": "¿No recibió el correo electrónico?",
+        "resendLabel": "Reenviar"
+      }
+    },
+    "schedule": {
+      "dependent": {
+        "title": "PRÓXIMOS VIAJES"
+      },
+      "schedule": {
+        "greeting": "Hola",
+        "greetingGuest": "Invitado",
+        "titleA": "PRÓXIMOS VIAJES",
+        "titleB": "NO HAY PRÓXIMOS VIAJES",
+        "activeTripTitle": {
+          "zero": "El viaje comienza ahora",
+          "one": "El viaje comienza en un minuto",
+          "other": "El viaje comienza en %{count} minutos"
+        },
+        "activeTripSubTitle": "En su destino en %{time}",
+        "activeTripText": "Ver detalles del viaje",
+        "openTripLabel": "Toca para ver este viaje.",
+        "favoriteSaveLabel": "Toque para guardar como ubicación favorita.",
+        "favoriteDeleteLabel": "Toque para eliminar esta ubicación como favorita.",
+        "favoriteTitle": "Nombre del viaje",
+        "favoritePlaceholder": "Nombra tu viaje favorito",
+        "saveLabel": "Guardar"
+      }
+    },
+    "scheduleTrip": {
+      "hail": {
+        "header": "Llamar a un Autobús",
+        "contextText1": "Llamar al",
+        "contextText2": "hacia",
+        "contextText3": "Ingrese su lugar de desembarque",
+        "searchLabel": "Buscar desembarque...",
+        "formLabel": "¿Cuántas personas viajan?",
+        "confirmLabel": "Confirmar",
+        "peoplePopup": "¿Cuántas personas?",
+        "alerts": {
+          "generatePlans": {
+            "title": "Advertencia",
+            "message": "No se encontraron viajes para este autobús.  Debe estar en el área de servicio para que un autobús lo recoja en su ubicación.  Si desea programar un viaje utilizando el autobús, pruebe en el área de servicio o planifique un viaje multimodal desde la pantalla de inicio.",
+            "buttons": {
+              "ok": "De acuerdo"
+            }
+          }
+        }
+      },
+      "plan": {
+        "header": "Programar un Viaje",
+        "fromInputLabel": "De",
+        "fromInputPlaceholder": "Buscar...",
+        "saveAddress": "Guardar dirección",
+        "savedAddress": "Dirección guardada",
+        "toInputLabel": "Hacia",
+        "toInputPlaceholder": "Buscar...",
+        "when": {
+          "asap": "Salir Ahora",
+          "leave": "Salir A",
+          "arrive": "Llegar antes de"
+        },
+        "dateInputLabel": "Seleccione la Fecha del Viaje",
+        "dateInputPlaceholder": "DD/MM/AAAA",
+        "timeInputLabel": "Seleccionar Hora",
+        "alerts": {
+          "noOrigin": {
+            "title": "Advertencia",
+            "message": "Por favor, elija un origen y un destino.",
+            "buttons": {
+              "ok": "De acuerdo"
+            }
+          },
+          "inPast": {
+            "title": "Advertencia",
+            "message": "No se puede planificar un viaje en el pasado.",
+            "buttons": {
+              "ok": "De acuerdo"
+            }
+          }
+        },
+        "modes": "Modos de Transporte",
+        "favoritePopupTitle": "Agregar Dirección",
+        "favoritePopupSubTitle": "Programación de viajes más fácil para direcciones visitadas con frecuencia.",
+        "favoriteInputPlaceholder": "Agregar apodo",
+        "favoriteInputLabel": "Apodo de la dirección",
+        "saveLabel": "Guardar",
+        "peoplePopup": "¿Cuántas personas?",
+        "caregiverPopup": "Seleccione un coordinador",
+        "chatLabel": "Toque para usar el asistente de chat",
+        "checkboxSave": "Toque para guardar esta ubicación como favorita."
+      },
+      "results": {
+        "includesStops": "Incluye Paradas",
+        "noStops": "Sin paradas",
+        "modeCount": {
+          "zero": "Ninguno",
+          "one": "%{count} Modo",
+          "other": "%{count} Modos"
+        },
+        "shortestTime": "TIEMPO MÁS CORTO",
+        "noTransfers": "SIN TRANSFERENCIAS",
+        "header": "Programar un Viaje",
+        "noResults": "No se encontraron viajes.  Intente ajustar sus preferencias de viaje, la fecha y hora de su viaje y los modos disponibles.",
+        "backLabel": "Volver",
+        "optionLabel": "Opción %{number}"
+      },
+      "selected": {
+        "alerts": {
+          "cancel": {
+            "title": "Cancelar viaje",
+            "message": "¿Estás seguro de que quieres cancelar este viaje?",
+            "buttons": {
+              "yes": "Sí",
+              "no": "No"
+            }
+          }
+        },
+        "scheduleLabel": "Programar Viaje",
+        "cancelLabel": "Cancelar Viaje",
+        "backLabel": "Atrás"
+      }
+    },
+    "tracker": {
+      "top": "arriba"
+    },
+    "tripLog": {
+      "header": "Registro de Viaje",
+      "activity": "Actividad ",
+      "favorites": "Favoritos",
+      "planLabel": "Toca para volver a planificar este viaje."
+    },
+    "error": {
+      "error": "Error"
+    },
+    "landing": {
+      "guestLabel": "Continuar como invitado"
+    }
+  },
+  "components": {
+    "bottomMenu": {
+      "schedule": "Horario",
+      "home": "Hogar",
+      "profile": "Perfil"
+    },
+    "banner": {
+      "nextLabel": "SIGUIENTE"
+    },
+    "scheduleTripDropdown": {
+      "buttonLabelLoggedIn": "Programar un viaje nuevo ",
+      "buttonLabelLoggedOut": "¿A dónde?"
+    },
+    "serviceViewer": {
+      "backLabel": "Volver a rutas y servicios",
+      "shuttleLabel": "Llamar al Autobús",
+      "shuttleMessage": "Invoca el transbordador a tu ubicación actual.  Se le pedirá su destino.  Su destino debe estar dentro del área de servicio del servicio de transporte.",
+      "shuttleNotInArea": "Debe estar dentro del área de servicio para utilizar el servicio de transporte comunitario.",
+      "shuttleNotAvailableTimeFrame": "Lo sentimos, pero este servicio de traslado no está disponible durante este tiempo.",
+      "shuttleNotAvailable": "Lo sentimos, pero este servicio de transporte aún no está disponible.",
+      "tapShuttleMessage": "Toque para ver y llamar al %{shuttle}.",
+      "tapRouteMessage": "%{route}. Destino %{destination}. Parada %{stop}. Llega en %{duration}. Siguiente llega a %{next}. Toque para ver las paradas.",
+      "tapStopMessage": "Parada %{stop}.  Rutas en servicio %{routes}.  Los próximos horarios de llegada son %{next1} y %{next2}.",
+      "servicingRoutes": "Rutas de servicio"
+    },
+    "toggle": {
+      "yes": "SÍ",
+      "no": "NO"
+    },
+    "tripHistory": {
+      "title": "Historial de Viajes"
+    },
+    "verticalPlanSchedule": {
+      "to": "Hacia",
+      "onTime": "en hora",
+      "delayed": "retrasado",
+      "yourStop": "(SU PARADA)",
+      "stopCount": {
+        "zero": "Sin paradas",
+        "one": "1 parada",
+        "other": "%{count} paradas"
+      },
+      "shuttleSummon": "Llamar cuando estés listo(a)",
+      "shuttleArrival": "El autobús llegará en %{duration}",
+      "showLess": "Mostrar menos"
+    }
+  },
+  "models": {
+    "stepDirection": {
+      "none": "ninguno",
+      "uturn": "vuelta en U",
+      "sharpRight": "derecha",
+      "right": "derecha",
+      "slightRight": "ligeramente a la derecha",
+      "straight": "derecho",
+      "slightLeft": "ligeramente a la izquierda",
+      "left": "izquierda",
+      "sharpLeft": "izquierda"
+    },
+    "stepManeuver": {
+      "none": "ninguno",
+      "turn": "giro",
+      "newName": "nombre nuevo",
+      "depart": "salir",
+      "arrive": "llegar",
+      "merge": "fusionar",
+      "ramp": "rampa",
+      "onRamp": "rampa de entrada",
+      "offRamp": "rampa de salida",
+      "fork": "bifurcación",
+      "endOfRoad": "fin del camino",
+      "useLane": "usar el carril",
+      "continue": "continuar",
+      "roundabout": "rotonda",
+      "rotary": "rotonda",
+      "roundaboutTurn": "giro en la rotonda",
+      "notification": "notificación",
+      "exitRoundabout": "salir de la rotonda",
+      "exitRotary": "salir de la rotonda",
+      "passWaypoint": "punto de ruta"
+    },
+    "tripPlanInput": {
+      "streetName": {
+        "north": "NORTE",
+        "south": "SUR",
+        "east": "ESTE",
+        "west": "OESTE",
+        "northWest": "NOROESTE",
+        "southWest": "SUROESTE",
+        "northEast": "NORESTE",
+        "southEast": "SURESTE",
+        "avenue": "AVENIDA",
+        "bend": "BEND",
+        "boulevard": "BULEVAR",
+        "court": "COURT",
+        "drive": "DRIVE",
+        "lane": "CARRIL",
+        "place": "PLACE",
+        "road": "CAMINO",
+        "street": "CALLE",
+        "parkway": "PARKWAY",
+        "and": "Y"
+      },
+      "bannerInstructions": {
+        "depart": "Salida hacia",
+        "stop": "es su parada"
+      },
+      "maneuverInstruction": "Girar",
+      "nextStepInstruction": "Proceda a",
+      "vehicleRentalInstructiona": {
+        "return": "y devuelva el/la",
+        "unlock": "y desbloquee el/la"
+      },
+      "stopVoiceInstruction": "Siguiente parada",
+      "stopInstruction": "Su parada es la siguiente. Por favor, baje del autobús en ",
+      "modeProfile": {
+        "walk": "camine",
+        "walking": "caminando",
+        "bus": "autobús",
+        "car": "automóvil",
+        "driving": "conduciendo",
+        "bike": "bicicleta",
+        "cycling": "pedalear"
+      }
+    }
+  },
+  "directions": {
+    "goToStart": "ve a empezar...",
+    "rerouting": "redirigiendo...",
+    "next": "próximo",
+    "none": "ninguno",
+    "uturn": "Vuelta en U",
+    "sharpRight": "Derecha",
+    "right": "Derecha",
+    "slightRight": "Ligeramente a la derecha",
+    "straight": "Derecho",
+    "slightLeft": "Ligeramente a la izquierda",
+    "left": "Izquierda",
+    "sharpLeft": "Izquierda en",
+    "turn": "Giro",
+    "merge": "Fusionar",
+    "ramp": "Rampa",
+    "onRamp": "Rampa de entrada",
+    "offRamp": "Rampa de salida",
+    "fork": "Bifurcación",
+    "endOfRoad": "Fin del camino",
+    "useLane": "Usar el carril",
+    "continue": "Continuar",
+    "roundabout": "Rotonda",
+    "rotary": "Rotonda",
+    "roundaboutTurn": "Giro en la rotonda",
+    "notification": "notificación",
+    "exitRoundabout": "Salir de la rotonda",
+    "exitRotary": "Salir de la rotonda",
+    "waypoint": "Punto de ruta",
+    "proceed": "Procede a",
+    "proceedDestination": "Continuar al destino",
+    "nextStop": "Próxima parada",
+    "yourStop1": "Su parada es la siguiente. Por favor, baje del autobús en",
+    "yourStop2": "es su parada",
+    "yourDestination": "Tu destino",
+    "depart": "Salida hacia"
+  },
+  "global": {
+    "leave": "Salir",
+    "leaveOrigin": "Salir %{origin}",
+    "arrive": "Llegar",
+    "arriveDestination": "llegar a %{destination}",
+    "signUpLabel": "Regístrate",
+    "nextLabel": "Próximo",
+    "cancelLabel": "Cancelar",
+    "skipLabel": "Saltar",
+    "submitLabel": "Enviar",
+    "firstNameLabel": "Nombre *",
+    "firstNamePlaceholder": "Nombre *",
+    "lastNameLabel": "Apellido *",
+    "lastNamePlaceholder": "Apellido *",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "correoelectronico@dominio.com",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Contraseña *",
+    "requiredError": "obligatorio",
+    "logInLabel": "Inicia sesión",
+    "deleteLabel": "Borrar",
+    "saveLabel": "Guardar",
+    "exitLabel": "SALIR",
+    "goLabel": "Ir",
+    "backLabel": "Volver a %{to}",
+    "backLabelDefault": "Volver a la pantalla anterior",
+    "closeLabel": "Cerrar",
+    "toLabel": "hacia",
+    "nowLabel": "ahora",
+    "stopLabel": "Parada",
+    "location": "ubicación",
+    "trip": "viaje",
+    "passwordRequirements": {
+      "characters": "caracteres",
+      "uppercase": "mayúscula",
+      "lowercase": "minúscula",
+      "number": "número"
+    },
+    "mfa": {
+      "verify": {
+        "title": "Verifique su identidad",
+        "subTitle": "¿Cómo le gustaría recibir su código?",
+        "sms": "Envíame un mensaje de texto",
+        "call": "Llámame",
+        "email": "Envíame un correo electrónico"
+      },
+      "confirm": {
+        "title": "Ingrese el código de 6 dígitos que se le envió a continuación.",
+        "inputLabel": "Escriba aquí para ingresar su código.",
+        "resendText": "¿No recibiste el código?",
+        "resendLabel": "Reenviar"
+      },
+      "errors": {
+        "invalidCode": "Código inválido.",
+        "unknown": "Error desconocido"
+      }
+    },
+    "modes": {
+      "walk": "camine",
+      "roll": "rollo",
+      "car": "automóvil",
+      "bicycle": "bicicleta",
+      "bus": "autobús",
+      "tram": "Metro Rail",
+      "hail": "Community Shuttle",
+      "checkLabel": "Toque para cambiar %{mode} como modo preferido de transporte."
+    },
+    "transferCount": {
+      "zero": "Sin transferencias",
+      "one": "%{count} transferencia",
+      "other": "%{count} transferencias"
+    },
+    "months": {
+      "january": "Enero",
+      "february": "Febrero",
+      "march": "Marzo",
+      "april": "Abril",
+      "may": "Mayo",
+      "june": "Junio",
+      "july": "Julio",
+      "august": "Agosto",
+      "september": "Septiembre",
+      "october": "Octubre",
+      "november": "Noviembre",
+      "december": "Diciembre"
+    },
+    "days": {
+      "sunday": "Domingo",
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado"
+    },
+    "hour": {
+      "zero": "%{count} horas",
+      "one": "%{count} hora",
+      "other": "%{count} horas"
+    },
+    "minute": {
+      "zero": "%{count} minutos",
+      "one": "%{count} minuto",
+      "other": "%{count} minutos"
+    },
+    "second": {
+      "zero": "%{count} segundos",
+      "one": "%{count} segundo",
+      "other": "%{count} segundos"
+    }
+  }
+}

@@ -1,0 +1,801 @@
+{
+  "views": {
+    "account": {
+      "accessibility": {
+        "header": "Accessibility",
+        "directions": "Navigation Directions",
+        "directionsLabel": "Tap to turn on or off voice navigation directions.",
+        "language": "Display Language",
+        "languageLabel": "Tap to change the language.",
+        "voiceOn": "Voice On",
+        "voiceOff": "Voice Off",
+        "english": "English",
+        "spanish": "Spanish",
+        "push": "Push",
+        "sms": "SMS",
+        "phone": "Phone",
+        "notificationToggle": "Tap to toggle %{type} notifications on or off."
+      },
+      "caregivers": {
+        "header": "Coordinators",
+        "invite": "Invite a Coordinator",
+        "pending": "PENDING",
+        "received": "RECEIVED",
+        "title": "Invite a Coordinator",
+        "emailError": "invalid email",
+        "inviteLabel": "Invite",
+        "delete": "Remove this coordinator",
+        "deleteConfirm": "Are you sure you want to remove this coordinator?"
+      },
+      "dependents": {
+        "header": "Traveler",
+        "accept": "Accept",
+        "decline": "Decline",
+        "delete": "Remove this traveler",
+        "deleteConfirm": "Are you sure you want to remove this traveler?"
+      },
+      "favorites": {
+        "header": "Favorites",
+        "locations": "Favorite Locations",
+        "trips": "Favorite Trips",
+        "delete": "Remove this %{type}",
+        "deleteConfirm": "Are you sure you want to delete this %{type}?"
+      },
+      "feedback": {
+        "header": "Feedback",
+        "inputPlaceholder": "Type your feedback here...",
+        "disclaimer": "Your first name and e-mail address will be included, so we can respond back to you if needed.",
+        "popUpTitle": "Choose a Category",
+        "categories": {
+          "scheduling": "Trip Scheduling",
+          "shuttle": "Community Shuttle",
+          "intersections": "Smart Intersections",
+          "transit": "Transit",
+          "outdoorNavigation": "Outdoor Navigation",
+          "indoorNavigation": "Indoor Navigation",
+          "caregiver": "Coordinator and Traveler",
+          "accessibility": "Accessibility",
+          "mapping": "General Mapping",
+          "other": "Other"
+        },
+        "stars": {
+          "overall": "Overall Satisfaction",
+          "outdoor": "Outdoor Navigation",
+          "indoor": "Indoor Navigation"
+        },
+        "alert": {
+          "title": "Feedback Submitted",
+          "message": "Thank you for submitting your feedback",
+          "buttons": {
+            "dismiss": "Dismiss"
+          }
+        }
+      },
+      "menu": {
+        "header": "Profile and Settings",
+        "account": "ACCOUNT",
+        "profile": "Profile Information",
+        "caregivers": "Coordinators",
+        "dependents": "Travelers",
+        "feedback": "Feedback",
+        "favorites": "Favorites",
+        "preferences": "Trip Preferences",
+        "settings": "SETTINGS",
+        "password": "Password",
+        "accessibility": "Accessibility",
+        "notifications": "Notifications",
+        "misc": "MISC",
+        "help": "Help",
+        "termsAndConditions": "Terms and Conditions",
+        "logOut": "Log Out",
+        "leave": "Leave",
+        "alerts": {
+          "warning": {
+            "title": "Warning",
+            "message": "You must be logged in to access this feature.",
+            "buttons": {
+              "ok": "OK"
+            }
+          },
+          "logout": {
+            "title": "Logout",
+            "message": "Are you sure you want to logout?",
+            "buttons": {
+              "no": "No",
+              "yes": "Yes"
+            }
+          }
+        }
+      },
+      "notifications": {
+        "header": "Notifications",
+        "preference": "Notification Preference Type",
+        "preferenceLabel": "Tap to change the notification preference types.",
+        "settings": "Settings",
+        "alerts": {
+          "alertToggle": "Tap to toggle %{type} notifications on or off.",
+          "rider": {
+            "title": "Traveler Notification Alerts",
+            "tripStart": "Trip Start",
+            "transitArrive": "Transit Arrival",
+            "transitDelay": "Mass Transit Delay",
+            "shuttleArrive": "On Demand Shuttle Arrival",
+            "intersection": "Enhanced Intersection Information"
+          },
+          "caregiver": {
+            "title": "Coordinator Notification Alerts",
+            "dependentTripStart": "Trip Start",
+            "dependentArriveDepart": "Traveler Arrival/Departure",
+            "dependentShuttleArriveDepart": "Traveler Shuttle Arrival/Drop Off",
+            "dependentModeChange": "Traveler Transportation Mode Change"
+          }
+        }
+      },
+      "password": {
+        "header": "Change Password",
+        "currentPasswordLabel": "Enter Current Password",
+        "currentPasswordPlaceholder": "Password",
+        "errors": {
+          "auth": "Unauthorized",
+          "incorrect": "Current password is incorrect"
+        },
+        "reenterPasswordLabel": "Re-Enter Password",
+        "reenterPasswordPlaceholder": "Password"
+      },
+      "profile": {
+        "header": "Profile",
+        "address": "HOME ADDRESS",
+        "editLabel": "Edit",
+        "deleteLabel": "Delete Account",
+        "editProfileTitle": "Edit Profile",
+        "addressInputPlaceholder": "Start typing address here…",
+        "saveLabel": "Save",
+        "deleteTitle": "DELETE ACCOUNT",
+        "deleteSubTitle": "Are you sure you would like to delete your account? If you do this, you will need create a new account again for access.",
+        "deleteConfirm": "TYPE IN 'DELETE MY ACCOUNT'",
+        "deleteConfirmLabel": "Delete Account"
+      },
+      "tripPreferences": {
+        "header": "Trip Preferences",
+        "wheelchair": "Wheelchair Accessibility",
+        "serviceAnimal": "Service Animal",
+        "minimizeWalking": "Minimize Walking Distance",
+        "maxTransfers": "Max Transfers",
+        "maxTransfersLabel": "Tap to change the maximum number of transfers.",
+        "preferredModes": "Preferred Modes of Transportation"
+      },
+      "termsAndConditions": {
+        "header": "Terms and Conditions",
+        "headerText": "Please read the following to learn about the All Access App terms and conditions which apply to your access and use of our website, product, services, and mobile application (i.e., the All Access App) in regard to the certain Buffalo All Access complete trip deployment project (“Buffalo Access”) (collectively, the “Services”). By using, accessing, and/or downloading the Services (including, but not limited to the All Access App), you acknowledge that you have read, understood, and agreed to be legally bound by the terms and conditions set forth herein (the “Terms and Conditions”) which will govern your right to use and access our Services.",
+        "availability": "Availability",
+        "availabilityText": "Through your use of the Services, Buffalo Access shall be made available to you in connection with traveling to, from, and within and around the Buffalo Niagara Medical Campus. Redistribution or republication of any part of Buffalo Access, the Services, or any content thereof, is prohibited. Buffalo Access, to the extent permitted by law, including, but not limited to, Title VI of the Civil Rights Act of 1964, as amended, reserves the right to refuse any or all of its Services to anyone. Buffalo Access reserves the right to investigate and take action, including, but not limited to, the removal of a user's records, the cancellation of a user's account, and/or suspension or termination of a user's access to or use of any or all of the Services in response to allegations of misconduct or illegal activity. \n\nBuffalo Access is affiliated with the Niagara Frontier Transportation Authority, University at Buffalo, Buffalo Niagara Medical Campus Inc., and their officers, directors, and representatives (collectively referred to as \"Affiliated Groups\", \"our,\" \"us\" or \"we\").",
+        "liability": "Liability for Access and Use; Prohibited Conduct",
+        "liabilityText": "You agree that you are fully responsible for your access to and use of any and all of the Services, together with any and all activities and conduct engaged in by you and/or on your account, as applicable. You agree not to engage in, participate in, aid or assist in any \"Prohibited Conduct\" in connection with your access to or use of any of the Services (defined in this section).  \"Prohibited Conduct\" includes, but is not limited to, any conduct that is unlawful, infringing (e.g., downloading, copying, redistributing, sharing, uploading, or otherwise making use of any copyright protected material, video, audio or otherwise without the owner's permission), tortious conduct that is intentionally harmful to an individual or entity or conduct that negligently or knowingly puts an individual or entity at risk, or any other conduct that a reasonable individual would or should know would violate another party's intellectual property rights, privacy rights or other rights; or conduct that otherwise interferes with the operation of, use of, or enjoyment of, any service, system or other property. You shall not use any of the Services, including, but not limited to the All Access App, to engage in any activity which constitutes or is capable of constituting a federal or state criminal offense. You shall not access or use any of the Services for commercial purposes. You agree and acknowledge that we may be required to provide assistance and information to law enforcement, governmental agencies and other authorities from time to time, which may concern your use of any of the Services.",
+        "privacy": "Privacy",
+        "privacyText": "By using or accessing our Services in any manner, or by otherwise providing us with Personal Information (defined below), you acknowledge that you accept the practices and policies outlined in the certain corresponding consent form that you have completed in connection with your access and use of the Services, and as may be further outlined in these Terms and Conditions, as the same may be amended by us from time to time. You acknowledge and agree that Buffalo Access gathers various types of Personal Information from users of the Services to be used intentionally in connection with providing our Services through Buffalo Access to allow you to set up a user account and profile, to contact you, to fulfill your requests for certain products and Services, to analyze how you use the Services, and to provide you with comprehensive trip planning and execution support based on your preferences and accessibility-related needs, and you consent to the same, which may also include location-based data as needed from time to time to provide certain of the Services to you. Buffalo Access receives and stores any information you knowingly provide. For example, through the registration process and/or through your account settings, Buffalo Access may collect Personal Information, which shall include, but not necessarily be limited to, your name, email address, and phone number (the \"Personal Information\"). Before your data are stored, the data will be anonymized and encrypted in accordance with our standard privacy protocols and policies to maintain security and protect privacy.\n\nWhenever you interact with our Services, Buffalo Access automatically receives and records information on our server logs from your browser or device, which may include your IP address, device identification, “cookie” information, the type of browser and/or device you’re using to access our Services, and the page or feature you requested. “Cookies” are identifiers we transfer to your browser or device that allow us to recognize your browser or device and tell us how and when pages and features in our Services are visited and by how many people. You may be able to change the preferences on your browser or device to prevent or limit your device’s acceptance of cookies, but this may prevent you from taking advantage of some or all of our features or Services.",
+        "changesToApp": "Changes to Buffalo Access",
+        "changesToAppText": "Buffalo Access may terminate, change, suspend or discontinue any aspect of its Services, including removing, adding, modifying or otherwise changing any features and/or content at any time without notice or liability. Buffalo Access reserves the right, but shall not be obligated, to correct any errors or omissions in any portion of Buffalo Access at any time without notice to any Buffalo Access user or third party linked to the website or application.",
+        "ownership": "Ownership of Intellectual Property",
+        "ownershipText": "The Services, including, but not limited to the All Access App or website, may contain services, software code, content, graphics, logos, marks, designs, images or other intellectual property that are owned or licensed by one or more of us, and all right, title and interest in and to the same are reserved by us, as applicable. Unless otherwise specifically permitted by applicable law, you may not copy, share, distribute, reproduce, upload or otherwise make use of such services, software code, content, graphics, logos, marks, designs, images or other intellectual property without  express and prior written permission of the applicable owner(s) thereof. Unless otherwise specifically provided herein, neither your access to nor use of any of the Services, including, but not limited to, the All Access App, shall grant you any right, title or interest in or to any patent, trademark, copyright, or other such intellectual property rights that Buffalo Access, the Affiliated Groups, or others may have in said services, software code, content, graphics, logos, marks, designs, images or other intellectual property.",
+        "liabilityLimitation": "Limitation of Liability",
+        "liabilityLimitationText": "WE ARE NOT LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, EXEMPLARY, PUNITIVE, SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, LOST PROFITS, LOST SAVINGS, LOSS OF GOODWILL, BUSINESS REPUTATION, OR BUSINESS OPPORTUNITIES, OR DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION) RESULTING FROM THE ACCESS OR USE OF, OR INABILITY TO ACCESS OR USE, OUR SERVICES, INCLUDING, BUT NOT LIMITED TO, OUR WEBSITE, APP, CONTENT, OR DATA, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER LEGAL THEORY, EVEN IF YOU HAVE NOTIFIED US ABOUT SUCH DAMAGES, OR FOR ANY CLAIMS BY ANY THIRD-PARTIES.\n\nIF APPLICABLE LAW PROHIBITS, OR LIMITS, THE FOREGOING LIMITATIONS SET FORTH ABOVE, AND WE ARE FOUND TO BE LIABLE, IN NO EVENT WILL OUR LIABILITY TO YOU ARISING FROM OR RELATING TO YOUR ACCESS OR USE OF OUR SERVICES, INCLUDING, BUT NOT LIMITED TO, OUR WEBSITE, APP, CONTENT, OR DATA, EXCEED ONE HUNDRED  U.S. DOLLARS ($100.00).\n\nSome states do not allow exclusion of implied warranties or limitation of liability for incidental or consequential damages, so the above limitations or exclusions may not apply to you. In such states, our liability to you shall be limited to the greatest extent permitted by applicable law.",
+        "disclaimer": "Disclaimer of Warranties",
+        "disclaimerText": "YOUR USE OF THE SERVICES, INCLUDING, BUT NOT LIMITED TO, OUR WEBSITE, APP, CONTENT, OR DATA IS AT YOUR OWN RISK AT ALL TIMES AND YOU AGREE TO ASSUME SUCH RISK. THE SERVICES, INCLUDING, BUT NOT LIMITED TO, OUR WEBSITE, APP, CONTENT, OR DATA, ARE PROVIDED \"AS IS\".\n\nWE HEREBY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. WE DISCLAIM ALL WARRANTIES RELATING TO THE AVAILABILITY, ACCURACY, SECURITY, PRIVACY, CONFIDENTIALITY, APPROPRIATENESS, RELIABILITY, COMPLETENESS, OR TIMELINESS RELATING TO THE SERVICES, INCLUDING, BUT NOT LIMITED TO, OUR APP, WEBSITE, CONTENT OR DATA. WE DISCLAIM ANY WARRANTY THAT THE SERVICES, INCLUDING, BUT NOT LIMITED TO, OUR WEBSITE, APP, CONTENT, OR DATA, WILL BE UNINTERRUPTED, FREE OF VIRUSES OR OTHER MALWARE, NOT DELAYED OR SUSPENDED, UNCHANGED, OR ERROR FREE OR THAT WE WILL CORRECT ANY DEFECTS.",
+        "indemnification": "Indemnification",
+        "indemnificationText": "You agree to indemnify and hold harmless Buffalo Access, the Affiliated Groups, and all of their respective officers, directors, members, shareholders, trustees, employees, agents, and representatives from and against any and all claims, demands, liabilities, losses, damages, judgements, settlements, costs or expenses, including attorneys' fees, arising out of or resulting from your acts, omissions, or breach of any provision of these Terms and Conditions or otherwise arising in any way out of your use of the Services . This section will not be construed to limit or exclude any other claims or remedies that Buffalo Access and/or the Affiliated Groups may assert at law, in equity or otherwise.",
+        "miscellaneous": "Miscellaneous",
+        "miscellaneousText": "These Terms and Conditions shall be governed, interpreted and construed in accordance with New York State law, without regard to its conflict of laws rules. Any legal suit, action, or proceeding arising out of, or related to, these Terms and Conditions, or your access or use of the Services, shall be instituted exclusively in the federal or state court of competent jurisdiction located in Erie County, New York. You waive any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts. These Terms and Conditions, together with any other terms, conditions and policies referenced herein, shall constitute the entire agreement between you and us with respect to your access to and/or use of any or all of the Services and the same shall supersede all prior and contemporaneous understandings and agreements, both written and oral, with respect to the subject matter hereof between you and us. If any term or provision contained herein is ruled to be invalid, illegal or unenforceable in any jurisdiction, such invalidity, illegality or unenforceability shall not affect the validity, legality or enforceability of any other term or provision contained herein or invalidate or render unenforceable such term or provision in any other jurisdiction. The headings in these Terms and Conditions are for reference only and shall not affect the interpretation of the terms and conditions contained herein. These Terms and Conditions shall be binding upon and shall inure to the benefit of us and you, and the respective successors and permitted assigns thereof. You may not assign your rights or obligations hereunder without our prior written consent, and any attempt to make an impermissible assignment shall be null and void ab initio. Nothing in these Terms and Conditions shall be construed as conferring upon any person, other than us and you, any rights or benefits hereunder.",
+        "changesToTerms": "Changes to Terms and Conditions",
+        "changesToTermsText": "We reserve the right to change, amend or otherwise modify these Terms and Conditions from time to time as we see fit."
+      },
+      "consent": {
+        "title": "Permission to Take Part in a Human Research Study",
+        "header": "Consent Form",
+        "headerText": "Please review the consent to participate in the evaluation research of the Buffalo NY ITS4US All Access App. The research study was approved by the University at Buffalo Institutional Review Board (UBIRB) (UB Federalwide Assurance ID#: FWA00008824)",
+        "info1": "Key Information:",
+        "info1Text": "The following is a short summary of this study to help you decide whether or not you would like to participate. More detailed information is provided below.",
+        "q1": "Why am I being invited to take part in a research study?",
+        "a1": "You are being invited to take part in a research study because you match one or more of the following categories: work and/or travel to the Buffalo Niagara Medical Center; and, at least 18 years of age.",
+        "q2": "What should I know about a research study?",
+        "a2a": "Whether or not you take part is up to you.",
+        "a2b": "You can choose not to take part.",
+        "a2c": "You can agree to take part and later change your mind.",
+        "a2d": "Your decision will not be held against you.",
+        "a2e": "You can ask all the questions you want before you decide.",
+        "q3": "Why is this research being done?",
+        "a3": "The purpose of this research is to determine the usefulness of three new technologies for improving people’s ability to travel to or from the Buffalo Niagara Medical Center or around their neighborhoods. The four technologies are a trip planning app (Buffalo All Access), a community shuttle service (both human-operated and self-driving), outdoor and indoor route guidance, and safe intersection crossing technology.",
+        "q4": "How long will the research last and what will I need to do?",
+        "a4": "The research will last about 18 months. You will be asked to complete an introductory survey about your current travel behaviors, followed by three surveys on any changes in your travel behavior and your perceptions of the new technologies. More detailed information about the study procedures can be found under \"What happens if I say yes, I want to be in this research?\"",
+        "q5": "Is there any way being in this study could be bad for me?",
+        "a5": "The risks to joining this study are minimal. More detailed information about the risks of this study can be found under \"Is there any way being in this study could be bad for me? (Detailed Risks)\"",
+        "q6": "Will being in this study help me in any way?",
+        "a6": "There may not be a direct benefit to you personally for participating in this study. We cannot promise any benefits to others from your taking part in this research. However, the information you provide will enable further development of these technologies, and others like them, to offer improved travel experiences for people like you.",
+        "q7": "What happens if I do not want to be in this research?",
+        "a7": "Participation in research is completely voluntary. You may choose not to enroll in this study. Your refusal to participate will involve no penalty or loss of benefits to which you are otherwise entitled.",
+        "info2": "Detailed Information:",
+        "info2Text": "The following is more detailed information about this study in addition to the information listed above.",
+        "q8": "Who can I talk to?",
+        "a8a": "If you have questions, concerns, or complaints, or think the research has hurt you, talk to the research team at (716) 829-5902 or email jlmaisel@buffalo.edu. You may also contact the research participant advocate at 716-888-4845 or researchadvocate@buffalo.edu.\n\nThis research has been reviewed and approved by an Institutional Review Board (“IRB”). An IRB is a committee that provides ethical and regulatory oversight of research that involves human subjects. You may talk to them at (716) 888-4888 or email ub-irb@buffalo.edu if:",
+        "a8b": "You have questions about your rights as a participant in this research.",
+        "a8c": "Your questions, concerns, or complaints are not being answered by the research team.",
+        "a8d": "You cannot reach the research team.",
+        "a8e": "You want to talk to someone besides the research team.",
+        "a8f": "You want to get information or provide input about this research.",
+        "q9": "How many people will be studied?",
+        "a9": "We expect about 500 people will be in this research study; an initial 100 persons, increasing up to 500 persons as the study progresses.",
+        "q10": "What happens if I say yes, I want to be in this research?",
+        "a10": "If you choose to participate, you will use the trip planning app (Buffalo All Access), a community shuttle service (both human-operated and self-driving), outdoor and indoor route guidance, and safe intersection crossing technology.\n\nIn addition to using the four technologies, you will be asked to participate in a series of surveys. Each survey will take approximately 15-20 minutes to complete. The surveys will be conducted about every three-six months. You may complete the survey on your mobile device, laptop, desktop computer, or by telephone. The survey consists of questions about (1) your travel behavior, (2) challenges in traveling to or from the BNMC or your neighborhood, (3) use of the deployed technologies, (4) your perceptions of the technologies, and (5) demographic information. Demographic information includes your zip code, name, and contact information. A single question will also be prompted on the app to assess your satisfaction [with the app or the service] after each usage.\n\nIn addition to completing surveys, when you use the trip planning app or the community shuttle service as a participant in the study, passive data will also be captured. Such data will include registration and app usage (e.g., frequency, time of day) as well as trip (e.g., trip planning, trip booking, trip travel mode, shuttle pick-up/drop-off location). Such data will be tied to the survey data via the respondent ID of study participants to protect personally identifiable information and will be collected and stored only for those persons who have consented to be a part of the study. While possible, specific geolocations will not be captured also to protect personally identifiable information.",
+        "q11": "What happens if I say yes, but I change my mind later?",
+        "a11": "You can leave the research at any time it will not be held against you. If you decide to leave the research, already collected data may not be removed from the study database.",
+        "q12": "Is there any way being in this study could be bad for me? (Detailed Risks)",
+        "a12": "We are not anticipating any ways in which this study can harm you. The risks for participating in this study are minimal, and are no greater than those which are present in everyday life.\n\nThese minimal risks are primarily associated with use of the self-driving shuttle. While the potential is small, we need to mention them here. With the self-driving shuttle, there could be sudden stops due to the way the technology perceives its surrounding environment as well as the potential for the self-driving shuttle to travel beyond the operating environment for which it is designed. An experienced steward/operator will be on board the self-driving shuttle at all times to ensure safety and assist with any situations that may arise. The self-driving vehicle has been successfully deployed in other locations and tested for safety.",
+        "q13": "What happens to the information collected for the research?",
+        "a13": "The data collected will be stored in secured servers at the University at Buffalo and will only be accessible to members of the research team and will be password protected. Identities of subjects will be kept confidential. This information will be securely stored in separate password protected files in secured servers.\n\nEfforts will be made to limit the use and disclosure of your personal information to people who have a need to review this information. We cannot promise complete secrecy. Organizations that may inspect and copy your information include the IRB and other representatives of this organization.\n\nThe results of this study may be published in scientific journals, professional publications, or educational presentations. Your name will only be connected to your survey responses through a study ID number and will not be used in any report. The de-identified information collected during the study could be used for future research studies or distributed to another investigator for future research studies without additional informed consent from the participants.",
+        "q14": "Can I be removed from the research without my OK?",
+        "a14": "You cannot be removed from the research study without your OK.",
+        "q15": "What else do I need to know?",
+        "q15q1": "Who is paying for this research?",
+        "q15a1": "This research is being funded by the U.S. Department of Transportation.",
+        "q15q2": "Will I get paid for my participation in this research?",
+        "q15a2": "If you agree to take part in this research study, and complete all four surveys, you will be eligible to enter a drawing to receive up to $500. You should plan to complete four surveys over an 18-month period. Payments that you receive for your participation in this research are considered taxable income.",
+        "confirm": "PARTICIPANT'S STATEMENT OF INFORMED CONSENT:  \"I am at least 18 years of age, have read and understand the explanation provided to me and voluntarily agree to participate in this study.\" (Clicking the box assumes consent.)"
+      },
+      "terms": {
+        "header": "Terms of Use",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Proin fermentum leo vel orci. In nulla posuere sollicitudin aliquam ultrices. Enim neque volutpat ac tincidunt vitae. Pharetra convallis posuere morbi leo urna molestie at. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. In est ante in nibh. Lobortis mattis aliquam faucibus purus in massa tempor nec. Eget velit aliquet sagittis id consectetur. Lacus sed turpis tincidunt id aliquet risus feugiat in. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Praesent tristique magna sit amet purus gravida. A cras semper auctor neque vitae. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Varius quam quisque id diam. Phasellus vestibulum lorem sed risus ultricies. Mollis nunc sed id semper risus in.\n\nVolutpat commodo sed egestas egestas. Ut venenatis tellus in metus vulputate. Rhoncus est pellentesque elit ullamcorper dignissim cras. At risus viverra adipiscing at in tellus integer. Libero enim sed faucibus turpis in eu mi bibendum. Convallis convallis tellus id interdum velit laoreet id donec. Quam vulputate dignissim suspendisse in est ante in. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Gravida rutrum quisque non tellus. Massa tincidunt dui ut ornare lectus sit amet est placerat. Habitasse platea dictumst quisque sagittis purus. Quam nulla porttitor massa id. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet aliquam id diam maecenas ultricies mi. Mattis nunc sed blandit libero volutpat sed. Turpis egestas maecenas pharetra convallis posuere morbi. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Semper viverra nam libero justo laoreet sit amet cursus. Libero enim sed faucibus turpis in eu mi bibendum. Tortor at auctor urna nunc id cursus.\n\nSed tempus urna et pharetra pharetra massa massa. Lorem mollis aliquam ut porttitor leo a. Enim diam vulputate ut pharetra. Venenatis cras sed felis eget. Consequat ac felis donec et odio pellentesque diam. Senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Fusce ut placerat orci nulla pellentesque dignissim enim. Ante in nibh mauris cursus mattis molestie a iaculis. Nulla pharetra diam sit amet. Massa tincidunt dui ut ornare lectus sit amet est. Eu nisl nunc mi ipsum faucibus vitae aliquet. Diam in arcu cursus euismod quis viverra nibh cras. Fusce ut placerat orci nulla pellentesque dignissim enim. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. In hac habitasse platea dictumst quisque sagittis purus sit amet.\n\nRhoncus mattis rhoncus urna neque viverra justo nec ultrices. Amet luctus venenatis lectus magna fringilla. Blandit massa enim nec dui. Consectetur adipiscing elit duis tristique sollicitudin nibh. Eget duis at tellus at. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Imperdiet dui accumsan sit amet nulla facilisi. Eu augue ut lectus arcu bibendum at. Eget dolor morbi non arcu risus quis varius. Purus in mollis nunc sed. Dui vivamus arcu felis bibendum ut tristique. In cursus turpis massa tincidunt dui ut ornare.\n\nEget dolor morbi non arcu risus. Ac tortor dignissim convallis aenean. Leo vel orci porta non pulvinar neque. Nulla facilisi cras fermentum odio eu feugiat. Tincidunt tortor aliquam nulla facilisi cras. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Lectus mauris ultrices eros in cursus. Adipiscing at in tellus integer. Enim ut tellus elementum sagittis vitae et leo duis ut. Donec et odio pellentesque diam. Nec nam aliquam sem et tortor consequat. A pellentesque sit amet porttitor eget dolor morbi non. Massa eget egestas purus viverra."
+      },
+      "privacy": {
+        "header": "Privacy Policy",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Proin fermentum leo vel orci. In nulla posuere sollicitudin aliquam ultrices. Enim neque volutpat ac tincidunt vitae. Pharetra convallis posuere morbi leo urna molestie at. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. In est ante in nibh. Lobortis mattis aliquam faucibus purus in massa tempor nec. Eget velit aliquet sagittis id consectetur. Lacus sed turpis tincidunt id aliquet risus feugiat in. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Praesent tristique magna sit amet purus gravida. A cras semper auctor neque vitae. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Varius quam quisque id diam. Phasellus vestibulum lorem sed risus ultricies. Mollis nunc sed id semper risus in.\n\nVolutpat commodo sed egestas egestas. Ut venenatis tellus in metus vulputate. Rhoncus est pellentesque elit ullamcorper dignissim cras. At risus viverra adipiscing at in tellus integer. Libero enim sed faucibus turpis in eu mi bibendum. Convallis convallis tellus id interdum velit laoreet id donec. Quam vulputate dignissim suspendisse in est ante in. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Gravida rutrum quisque non tellus. Massa tincidunt dui ut ornare lectus sit amet est placerat. Habitasse platea dictumst quisque sagittis purus. Quam nulla porttitor massa id. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Amet aliquam id diam maecenas ultricies mi. Mattis nunc sed blandit libero volutpat sed. Turpis egestas maecenas pharetra convallis posuere morbi. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Semper viverra nam libero justo laoreet sit amet cursus. Libero enim sed faucibus turpis in eu mi bibendum. Tortor at auctor urna nunc id cursus.\n\nSed tempus urna et pharetra pharetra massa massa. Lorem mollis aliquam ut porttitor leo a. Enim diam vulputate ut pharetra. Venenatis cras sed felis eget. Consequat ac felis donec et odio pellentesque diam. Senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Fusce ut placerat orci nulla pellentesque dignissim enim. Ante in nibh mauris cursus mattis molestie a iaculis. Nulla pharetra diam sit amet. Massa tincidunt dui ut ornare lectus sit amet est. Eu nisl nunc mi ipsum faucibus vitae aliquet. Diam in arcu cursus euismod quis viverra nibh cras. Fusce ut placerat orci nulla pellentesque dignissim enim. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Nisl rhoncus mattis rhoncus urna neque viverra justo. In hac habitasse platea dictumst quisque sagittis purus sit amet.\n\nRhoncus mattis rhoncus urna neque viverra justo nec ultrices. Amet luctus venenatis lectus magna fringilla. Blandit massa enim nec dui. Consectetur adipiscing elit duis tristique sollicitudin nibh. Eget duis at tellus at. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Imperdiet dui accumsan sit amet nulla facilisi. Eu augue ut lectus arcu bibendum at. Eget dolor morbi non arcu risus quis varius. Purus in mollis nunc sed. Dui vivamus arcu felis bibendum ut tristique. In cursus turpis massa tincidunt dui ut ornare.\n\nEget dolor morbi non arcu risus. Ac tortor dignissim convallis aenean. Leo vel orci porta non pulvinar neque. Nulla facilisi cras fermentum odio eu feugiat. Tincidunt tortor aliquam nulla facilisi cras. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Lectus mauris ultrices eros in cursus. Adipiscing at in tellus integer. Enim ut tellus elementum sagittis vitae et leo duis ut. Donec et odio pellentesque diam. Nec nam aliquam sem et tortor consequat. A pellentesque sit amet porttitor eget dolor morbi non. Massa eget egestas purus viverra."
+      }
+    },
+    "home": {
+      "greeting": "Hello",
+      "greetingGuest": "Guest",
+      "followUser": "Follow User",
+      "feedback": {
+        "modalTitle": "Feedback",
+        "modalSubTitle": "Please share your thoughts on how we can provide better service."
+      },
+      "gpsWarning": "Warning: GPS accuracy issues in this area may impact trip planning and navigation. Please take caution."
+    },
+    "login": {
+      "confirmLogin": {
+        "errors": {
+          "code": "Invalid code.",
+          "known": "Unknown error"
+        },
+        "title": "Please enter the 6 digit code sent to you.",
+        "resendText": "Didn't receive the code?",
+        "resendLabel": "Resend"
+      },
+      "login": {
+        "title": "Welcome\nBack",
+        "error": "Email and password required",
+        "forgotPassword": "Forgot Password?",
+        "noAccount": "Don’t have an account?",
+        "modalTitle": "Verify Your Identity",
+        "modalConfirm": "How would you like to receive your code?"
+      }
+    },
+    "navigator": {
+      "alerts": {
+        "summonPress": {
+          "title": "Summon Community Shuttle",
+          "message": "Are you sure you want to summon the community shuttle to your current location?",
+          "buttons": {
+            "cancel": "Cancel",
+            "summon": "Summon"
+          }
+        },
+        "cancelSummonPress": {
+          "title": "Cancel Community Shuttle",
+          "message": "Are you sure you want to cancel the community shuttle?",
+          "buttons": {
+            "no": "No",
+            "proceed": "Proceed"
+          }
+        },
+        "offerNewTripPress": {
+          "title": "Warning",
+          "message": "You are at risk of missing a bus on your trip.  Would you like to search for another trip?",
+          "buttons": {
+            "cancel": "Cancel",
+            "getNewTrip": "GET NEW TRIP"
+          }
+        }
+      },
+      "summonShuttleLabel": "SUMMON SHUTTLE",
+      "cancelShuttleLabel": "CANCEL SHUTTLE",
+      "near": "You are near your destination.",
+      "indoorMessage": "If you would like to switch to the indoor map, the building icon for the indoor map is on the bottom right.",
+      "outdoorMessage": "If you would like to switch to the outdoor map, the building icon for the outdoor map is on the bottom right.",
+      "requestCrosswalk": "Request to Cross the Intersection",
+      "crosswalkRequested": "Crosswalk Signal Requested"
+    },
+    "onboard": {
+      "address": {
+        "title": "Add Home Address",
+        "subTitle": "This helps create routes from your home with ease.",
+        "addressInputPlaceholder": "Start typing address here...",
+        "error": "Please add your Home address or press the Skip button below.",
+        "selectedAddress": "SELECTED ADDRESS"
+      },
+      "caregiver": {
+        "title": "Add Primary Coordinator",
+        "subTitle": "Notify your companions in 1-touch for any of your trips.",
+        "firstNameError": "invalid first name",
+        "lastNameError": "invalid last name",
+        "emailError": "invalid email"
+      },
+      "confirmPhone": {
+        "intro": "Almost there.  Please wait while we finish processing your account.",
+        "errors": {
+          "code": "Invalid code.",
+          "unknown": "Unknown error"
+        },
+        "resendText": "Didn't receive the text message?",
+        "resendLabel": "Resend"
+      },
+      "contact": {
+        "title": "Add Contact Information",
+        "subTitle": "Verify your email below and enter your phone number.",
+        "phonePlaceholder": "Phone *"
+      },
+      "enhanced": {
+        "title": "Enhanced Mobility Options",
+        "menuItem1": "Wheelchair Accessibility",
+        "menuItem2": "Service Animal"
+      },
+      "location": {
+        "title": "Requires Access to Your Location",
+        "subTitle1": "Before we start, we need location information to provide accurate route estimates, pricing, and tracking. Is this ok?",
+        "subTitle2": "When prompted, choose “while using the app” for best app experience."
+      }
+    },
+    "recoverAccount": {
+      "changePassword": {
+        "title": "Change\nPassword",
+        "subTitle": "Please enter the 6 digit code sent to you.",
+        "newPasswordLabel": "Enter New Password",
+        "newPasswordPlaceholder": "Password",
+        "reenterPasswordLabel": "Re-enter New Password",
+        "reenterPasswordPlaceholder": "Password",
+        "changePasswordLabel": "Change Password",
+        "newCode": "Need another 6 digit code? ",
+        "request": "Request it again."
+      },
+      "forgotPassword": {
+        "title": "Forgot\nPassword",
+        "modalTitle": "Update Your Password",
+        "modalSubTitle": "In order to reset your password, a code will need to be sent to the device registered with us.",
+        "modalConfirm": "How would you like to receive the code?"
+      }
+    },
+    "register": {
+      "account": {
+        "title": "Create Account",
+        "emailError": "invalid email",
+        "userError": "A user with that email already exists. Please try with a different email.",
+        "checkBoxText1": "I agree to the ",
+        "checkBoxText2": "Terms and Conditions",
+        "buttonLabel": "Create",
+        "accountLabel": "Already have an account? ",
+        "termsTitle": "Terms and Conditions"
+      },
+      "confirmEmail": {
+        "intro": "Almost there.  Please wait while we process your account.",
+        "title": "Please enter the 6 digit code sent to the email you provided.",
+        "resend": "Didn't receive the email?",
+        "resendLabel": "Resend"
+      }
+    },
+    "schedule": {
+      "dependent": {
+        "title": "UPCOMING TRIPS"
+      },
+      "schedule": {
+        "greeting": "Hello",
+        "greetingGuest": "Guest",
+        "titleA": "UPCOMING TRIPS",
+        "titleB": "NO UPCOMING TRIPS",
+        "activeTripTitle": {
+          "zero": "Trip starts now",
+          "one": "Trip starts in a minute",
+          "other": "Trip starts in %{count} minutes"
+        },
+        "activeTripSubTitle": "At destination by %{time}",
+        "activeTripText": "See trip details",
+        "openTripLabel": "Tap to view this trip.",
+        "favoriteSaveLabel": "Tap to save this as a favorite location.",
+        "favoriteDeleteLabel": "Tap to remove this as a favorite location.",
+        "favoriteTitle": "Trip Name",
+        "favoritePlaceholder": "Name your favorite trip",
+        "saveLabel": "Save"
+      }
+    },
+    "scheduleTrip": {
+      "hail": {
+        "header": "Summon a Shuttle",
+        "contextText1": "Summon the",
+        "contextText2": "to",
+        "contextText3": "Please enter your dropoff location",
+        "searchLabel": "Search for dropoff…",
+        "formLabel": "How Many People Are Riding",
+        "confirmLabel": "Confirm",
+        "peoplePopup": "How Many People",
+        "alerts": {
+          "generatePlans": {
+            "title": "Warning",
+            "message": "No trips were found for this shuttle.  You must be in the service area to have a shuttle pick you up at your location.  If you wish to schedule a trip using the shuttle please try in the service area or plan a multi-mode trip from the home view.",
+            "buttons": {
+              "ok": "OK"
+            }
+          }
+        }
+      },
+      "plan": {
+        "header": "Schedule a Trip",
+        "fromInputLabel": "From",
+        "fromInputPlaceholder": "Search…",
+        "saveAddress": "Save address",
+        "savedAddress": "Saved address",
+        "toInputLabel": "To",
+        "toInputPlaceholder": "Search…",
+        "when": {
+          "asap": "Leave Now",
+          "leave": "Leave At",
+          "arrive": "Arrive By"
+        },
+        "dateInputLabel": "Select Date of Trip",
+        "dateInputPlaceholder": "MM/DD/YYYY",
+        "timeInputLabel": "Select Time of Trip",
+        "alerts": {
+          "noOrigin": {
+            "title": "Warning",
+            "message": "Please choose an origin and destination.",
+            "buttons": {
+              "ok": "OK"
+            }
+          },
+          "inPast": {
+            "title": "Warning",
+            "message": "You cannot plan a trip in the past.",
+            "buttons": {
+              "ok": "OK"
+            }
+          }
+        },
+        "modes": "Modes of Transportation",
+        "favoritePopupTitle": "Add Address",
+        "favoritePopupSubTitle": "Easier trip scheduling with frequently visited addresses.",
+        "favoriteInputPlaceholder": "Add nickname",
+        "favoriteInputLabel": "Address Nickname",
+        "saveLabel": "Save",
+        "peoplePopup": "How Many People",
+        "caretakerPopup": "Select a Coordinator",
+        "chatLabel": "Tap to use the chat assistant",
+        "checkboxSave": "Tap to save this as a favorite location."
+      },
+      "results": {
+        "includesStops": "Includes Stops",
+        "noStops": "No Stops",
+        "modeCount": {
+          "zero": "None",
+          "one": "%{count} Mode",
+          "other": "%{count} Modes"
+        },
+        "shortestTime": "SHORTEST TIME",
+        "noTransfers": "NO TRANSFERS",
+        "header": "Schedule a Trip",
+        "noResults": "No trips found.  Try adjusting your trip preferences, the date and time of your trip, and the available modes.",
+        "backLabel": "Go Back",
+        "optionLabel": "Option %{number}"
+      },
+      "selected": {
+        "alerts": {
+          "cancel": {
+            "title": "Cancel Trip",
+            "message": "Are you sure you want to cancel this trip?",
+            "buttons": {
+              "yes": "Yes",
+              "no": "No"
+            }
+          }
+        },
+        "scheduleLabel": "Schedule Trip",
+        "cancelLabel": "Cancel Trip",
+        "backLabel": "Back"
+      }
+    },
+    "tracker": {
+      "top": "top"
+    },
+    "tripLog": {
+      "header": "Trip Log",
+      "activity": "Activity",
+      "favorites": "Favorites",
+      "planLabel": "Tap to plan this trip again."
+    },
+    "error": {
+      "error": "Error"
+    },
+    "landing": {
+      "guestLabel": "Continue as guest"
+    }
+  },
+  "components": {
+    "bottomMenu": {
+      "schedule": "Schedule",
+      "home": "Home",
+      "profile": "Profile"
+    },
+    "banner": {
+      "nextLabel": "NEXT"
+    },
+    "scheduleTripDropdown": {
+      "buttonLabelLoggedIn": "Schedule New Trip",
+      "buttonLabelLoggedOut": "Where To?"
+    },
+    "serviceViewer": {
+      "backLabel": "Back to routes and services",
+      "shuttleLabel": "Summon Shuttle",
+      "shuttleMessage": "Summon the shuttle to your current location.  You will be prompted for your destination.  Your destination must be within the shuttle's service area.",
+      "shuttleNotInArea": "You must be within the service area to use the community shuttle.",
+      "shuttleNotAvailableTimeFrame": "Sorry but this shuttle is not available during this time.",
+      "shuttleNotAvailable": "Sorry but this shuttle is not yet available.",
+      "tapShuttleMessage": "Tap to view and hail the %{shuttle}.",
+      "tapRouteMessage": "%{route}. Destination %{destination}. Stop %{stop}. Arrives in %{duration}. Next arrives at %{next}.  Tap to view stops.",
+      "tapStopMessage": "Stop %{stop}.  Servicing routes %{routes}.  Next arrival times are %{next1} and %{next2}.",
+      "servicingRoutes": "Servicing routes"
+    },
+    "toggle": {
+      "yes": "YES",
+      "no": "NO"
+    },
+    "tripHistory": {
+      "title": "Trip History"
+    },
+    "verticalPlanSchedule": {
+      "to": "To",
+      "onTime": "on time",
+      "delayed": "delayed",
+      "yourStop": "(YOUR STOP)",
+      "stopCount": {
+        "zero": "No stops",
+        "one": "1 stop",
+        "other": "%{count} stops"
+      },
+      "shuttleSummon": "Summon when you are ready",
+      "shuttleArrival": "Shuttle will arrive in %{duration}",
+      "showLess": "Show Less"
+    }
+  },
+  "models": {
+    "stepDirection": {
+      "none": "none",
+      "uturn": "uturn",
+      "sharpRight": "sharp right",
+      "right": "right",
+      "slightRight": "slight right",
+      "straight": "straight",
+      "slightLeft": "slight left",
+      "left": "left",
+      "sharpLeft": "sharp left"
+    },
+    "stepManeuver": {
+      "none": "none",
+      "turn": "turn",
+      "newName": "new name",
+      "depart": "depart",
+      "arrive": "arrive",
+      "merge": "merge",
+      "ramp": "ramp",
+      "onRamp": "on ramp",
+      "offRamp": "off ramp",
+      "fork": "fork",
+      "endOfRoad": "end of road",
+      "useLane": "use lane",
+      "continue": "continue",
+      "roundabout": "roundabout",
+      "rotary": "rotary",
+      "roundaboutTurn": "roundabout turn",
+      "notification": "notification",
+      "exitRoundabout": "exit roundabout",
+      "exitRotary": "exit rotary",
+      "passWaypoint": "waypoint"
+    },
+    "tripPlanInput": {
+      "streetName": {
+        "north": "NORTH",
+        "south": "SOUH",
+        "east": "EAST",
+        "west": "WEST",
+        "northWest": "NORTHWEST",
+        "southWest": "SOUTHWEST",
+        "northEast": "NORTHEAST",
+        "southEast": "SOUTHEAST",
+        "avenue": "AVENUE",
+        "bend": "BEND",
+        "boulevard": "BOULEVARD",
+        "court": "COURT",
+        "drive": "DRIVE",
+        "lane": "LANE",
+        "place": "PLACE",
+        "road": "ROAD",
+        "street": "STREET",
+        "parkway": "PARKWAY",
+        "and": "AND"
+      },
+      "bannerInstructions": {
+        "depart": "Depart for",
+        "stop": "is your stop"
+      },
+      "maneuverInstruction": "Turn",
+      "nextStepInstruction": "Proceed to",
+      "vehicleRentalInstructiona": {
+        "return": "and return the",
+        "unlock": "and unlock the"
+      },
+      "stopVoiceInstruction": "Next stop",
+      "stopInstruction": "Your stop is coming up next. Please depart the bus at",
+      "modeProfile": {
+        "walk": "walk",
+        "walking": "walking",
+        "bus": "bus",
+        "car": "car",
+        "driving": "driving",
+        "bike": "bike",
+        "cycling": "cycling"
+      }
+    }
+  },
+  "directions": {
+    "goToStart": "go to start...",
+    "rerouting": "rerouting...",
+    "next": "next",
+    "none": "none",
+    "uturn": "Uturn",
+    "sharpRight": "Sharp right on",
+    "right": "Right on",
+    "slightRight": "Slight right",
+    "straight": "Straight on",
+    "slightLeft": "Slight left on",
+    "left": "Left on",
+    "sharpLeft": "Sharp left on",
+    "turn": "Turn",
+    "merge": "Merge",
+    "ramp": "Ramp",
+    "onRamp": "On Ramp",
+    "offRamp": "Off Ramp",
+    "fork": "Fork",
+    "endOfRoad": "End of Road",
+    "useLane": "Use Lane",
+    "continue": "Continue on",
+    "roundabout": "Roundabout",
+    "rotary": "Rotary",
+    "roundaboutTurn": "Roundabout Turn",
+    "notification": "Notification",
+    "exitRoundabout": "Exit Roundabout",
+    "exitRotary": "Exit Rotary",
+    "waypoint": "Waypoint",
+    "proceed": "Proceed to",
+    "proceedDestination": "Proceed to Destination",
+    "nextStop": "Next Stop",
+    "yourStop1": "Your stop is coming up next. Please depart the bus at",
+    "yourStop2": "is your stop.",
+    "yourDestination": "Your Destination",
+    "depart": "Depart for"
+  },
+  "global": {
+    "leave": "Leave",
+    "leaveOrigin": "Leave %{origin}",
+    "arrive": "Arrive",
+    "arriveDestination": "Arrive at %{destination}",
+    "signUpLabel": "Sign Up",
+    "nextLabel": "Next",
+    "cancelLabel": "Cancel",
+    "skipLabel": "Skip",
+    "submitLabel": "Submit",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "First Name *",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Last Name *",
+    "emailLabel": "Email",
+    "emailPlaceholder": "email@domain.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password *",
+    "requiredError": "required",
+    "logInLabel": "Log In",
+    "deleteLabel": "Delete",
+    "saveLabel": "Save",
+    "exitLabel": "EXIT",
+    "goLabel": "GO",
+    "backLabel": "Back to %{to}",
+    "backLabelDefault": "Back to previous screen",
+    "closeLabel": "Close",
+    "toLabel": "to",
+    "nowLabel": "now",
+    "stopLabel": "Stop",
+    "location": "location",
+    "trip": "trip",
+    "passwordRequirements": {
+      "characters": "characters",
+      "uppercase": "uppercase",
+      "lowercase": "lowercase",
+      "number": "number"
+    },
+    "mfa": {
+      "verify": {
+        "title": "Verify Your Identity",
+        "subTitle": "How would you like to receive your code?",
+        "sms": "Text Me",
+        "call": "Call Me",
+        "email": "Email Me"
+      },
+      "confirm": {
+        "title": "Please enter the 6 digit code sent to you below.",
+        "inputLabel": "Type here to enter your code.",
+        "resendText": "Didn't receive the code?",
+        "resendLabel": "Resend"
+      },
+      "errors": {
+        "invalidCode": "Invalid code.",
+        "unknown": "Unknown error"
+      }
+    },
+    "modes": {
+      "walk": "Walk",
+      "roll": "Roll",
+      "car": "Car",
+      "bicycle": "Bike",
+      "bus": "Bus",
+      "tram": "Metro Rail",
+      "hail": "Community Shuttle",
+      "checkLabel": "Tap to toggle %{mode} as a preferred mode of transportation."
+    },
+    "transferCount": {
+      "zero": "No transfers",
+      "one": "%{count} transfer",
+      "other": "%{count} transfers"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "hour": {
+      "zero": "%{count} hours",
+      "one": "%{count} hour",
+      "other": "%{count} hours"
+    },
+    "minute": {
+      "zero": "%{count} minutes",
+      "one": "%{count} minute",
+      "other": "%{count} minutes"
+    },
+    "second": {
+      "zero": "%{count} seconds",
+      "one": "%{count} second",
+      "other": "%{count} seconds"
+    }
+  }
+}
